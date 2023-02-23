@@ -18,6 +18,28 @@ namespace LeetCodeConApp
         {
 
 
+            //1470. Shuffle the Array
+
+            int[] nums = { 1, 1, 2, 2 };
+            int n = 2;
+
+            ShuffleTheArray x = new ShuffleTheArray();
+            x.Shuffle(nums, n);
+
+
+
+            //2469. Convert the Temperature
+
+            //ConvertTheTemperature x = new ConvertTheTemperature();
+
+            //var c = x.ConvertTemperature(36.50);
+
+            //Console.Read();
+            //1929. Concatenation of Array
+
+            //int[] nums = { 1, 3, 2, 1 };
+            //ConcatenationOfArray x = new ConcatenationOfArray();
+            //x.GetConcatenation(nums);
 
 
             //1920. Build Array from Permutation
