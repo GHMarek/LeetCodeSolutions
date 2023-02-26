@@ -18,13 +18,26 @@ namespace LeetCodeConApp
         {
 
 
+            // 1512. Number of Good Pairs
+
+            NumberOfGoodPairs x = new NumberOfGoodPairs();
+            var c = new int[] { 1, 2, 3, 1, 1, 3 };
+
+            x.NumIdenticalPairs(c);
+
+            // 2011. Final Value of Variable After Performing Operations
+
+            //FinalValue x = new FinalValue();
+            //var op = new string[] { "X++", "++X", "--X", "X--" };
+            //var c = x.FinalValueAfterOperations(op);
+
             //1470. Shuffle the Array
 
-            int[] nums = { 1, 1, 2, 2 };
-            int n = 2;
+            //int[] nums = { 1, 1, 2, 2 };
+            //int n = 2;
 
-            ShuffleTheArray x = new ShuffleTheArray();
-            x.Shuffle(nums, n);
+            //ShuffleTheArray x = new ShuffleTheArray();
+            //x.Shuffle(nums, n);
 
 
 

@@ -44,6 +44,8 @@
     <Compile Include="BuildArrayFromPermutation.cs" />
     <Compile Include="ConcatenationOfArray.cs" />
     <Compile Include="ConvertTheTemperature.cs" />
+    <Compile Include="FinalValue.cs" />
+    <Compile Include="NumberOfGoodPairs.cs" />
     <Compile Include="PalindromeNumberSolution.cs" />
     <Compile Include="PowerOfFourSolution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
