@@ -45,12 +45,16 @@
     <Compile Include="ConcatenationOfArray.cs" />
     <Compile Include="ConvertTheTemperature.cs" />
     <Compile Include="FinalValue.cs" />
+    <Compile Include="KidsWithGreatestNumberCandies.cs" />
+    <Compile Include="MaximumNumberOfWordsFoundInSentences.cs" />
     <Compile Include="NumberOfGoodPairs.cs" />
     <Compile Include="PalindromeNumberSolution.cs" />
     <Compile Include="PowerOfFourSolution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemoveDuplicatesSolution.cs" />
+    <Compile Include="RichestCustomerWealth.cs" />
     <Compile Include="RotateImageSolution.cs" />
+    <Compile Include="RunningSumOf1dArray.cs" />
     <Compile Include="ShuffleTheArray.cs" />
     <Compile Include="TwoSumSolution.cs" />
   </ItemGroup>

@@ -16,14 +16,43 @@ namespace LeetCodeConApp
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            // 1365.How Many Numbers Are Smaller Than the Current Number
 
 
+
+
+
+            // 1431. Kids With the Greatest Number of Candies
+
+            //KidsWithGreatestNumberCandies x = new KidsWithGreatestNumberCandies();
+            //var c = new int[] { 2, 3, 5, 1, 3 };
+            //var t = x.KidsWithCandies(c, 3);
+
+            // 2114. Maximum Number of Words Found in Sentences
+
+            //MaximumNumberOfWordsFoundInSentences x = new MaximumNumberOfWordsFoundInSentences();
+            //var c = new string[] { "alice and bob love leetcode", "i think so too", "this is great thanks very much" };
+            //var res = x.MostWordsFound(c);
+
+            // 1672. Richest Customer Wealth
+
+            //RichestCustomerWealth x = new RichestCustomerWealth();
+            //var c = new int[,] { {1, 4, 2}, {3, 6, 8} };
+            //x.MaximumWealth(c);
+
+            // 1480. Running Sum of 1d Array
+
+
+            //RunningSumOf1dArray x = new RunningSumOf1dArray();
+            //var c = new int[] { 1, 1, 1, 1, 1 };
+            //var t = x.RunningSum(c);
+            //Console.WriteLine();
             // 1512. Number of Good Pairs
 
-            NumberOfGoodPairs x = new NumberOfGoodPairs();
-            var c = new int[] { 1, 2, 3, 1, 1, 3 };
+            //NumberOfGoodPairs x = new NumberOfGoodPairs();
+            //var c = new int[] { 1, 2, 3, 1, 1, 3 };
 
-            x.NumIdenticalPairs(c);
+            //x.NumIdenticalPairs(c);
 
             // 2011. Final Value of Variable After Performing Operations
 
