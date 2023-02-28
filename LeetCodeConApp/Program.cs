@@ -16,11 +16,13 @@ namespace LeetCodeConApp
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            // 2535. Difference Between Element Sum and Digit Sum of an Array
+
+            DifferenceBetweenElementSumAndDigitSum x = new DifferenceBetweenElementSumAndDigitSum();
+            var c = new int[] { 1, 2, 3, 4 };
+            var t = x.DifferenceOfSum(c);
+
             // 1365.How Many Numbers Are Smaller Than the Current Number
-
-
-
-
 
             // 1431. Kids With the Greatest Number of Candies
 
@@ -49,10 +51,10 @@ namespace LeetCodeConApp
             //Console.WriteLine();
             // 1512. Number of Good Pairs
 
-            //NumberOfGoodPairs x = new NumberOfGoodPairs();
-            //var c = new int[] { 1, 2, 3, 1, 1, 3 };
 
             //x.NumIdenticalPairs(c);
+            //NumberOfGoodPairs x = new NumberOfGoodPairs();
+            //var c = new int[] { 1, 2, 3, 1, 1, 3 };
 
             // 2011. Final Value of Variable After Performing Operations
 

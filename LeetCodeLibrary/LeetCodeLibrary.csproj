@@ -44,10 +44,12 @@
     <Compile Include="BuildArrayFromPermutation.cs" />
     <Compile Include="ConcatenationOfArray.cs" />
     <Compile Include="ConvertTheTemperature.cs" />
+    <Compile Include="DifferenceBetweenElementSumAndDigitSum.cs" />
     <Compile Include="FinalValue.cs" />
     <Compile Include="KidsWithGreatestNumberCandies.cs" />
     <Compile Include="MaximumNumberOfWordsFoundInSentences.cs" />
     <Compile Include="NumberOfGoodPairs.cs" />
+    <Compile Include="NumbersAreSmallerThanTheCurrentNumber.cs" />
     <Compile Include="PalindromeNumberSolution.cs" />
     <Compile Include="PowerOfFourSolution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
