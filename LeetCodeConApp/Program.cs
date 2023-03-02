@@ -16,11 +16,33 @@ namespace LeetCodeConApp
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+
+            // 1313. Decompress Run-Length Encoded List
+
+            DecompressRunLengthEncodedList x = new DecompressRunLengthEncodedList();
+            x.DecompressRLElist(new int[] { 1, 2, 3, 4 });
+
+            // 1389. Create Target Array in the Given Order
+
+            //CreateTargetArrayintheGivenOrder x = new CreateTargetArrayintheGivenOrder();
+            //int[] nums = new int[] { 1, 2, 3, 4, 0 };
+            //int[] index = new int[] { 0, 1, 2, 3, 0 };
+
+            //var res = x.CreateTargetArray(nums, index);
+            //Console.WriteLine();
+
+            // 1720. Decode XORed Array
+
+            //DecodeXORedArray x = new DecodeXORedArray();
+            //var c = new int[] { 1, 2, 3};
+            //var z = 1;
+            //x.Decode(c, z);
+
             // 2535. Difference Between Element Sum and Digit Sum of an Array
 
-            DifferenceBetweenElementSumAndDigitSum x = new DifferenceBetweenElementSumAndDigitSum();
-            var c = new int[] { 1, 2, 3, 4 };
-            var t = x.DifferenceOfSum(c);
+            //DifferenceBetweenElementSumAndDigitSum x = new DifferenceBetweenElementSumAndDigitSum();
+            //var c = new int[] { 1, 2, 3, 4 };
+            //var t = x.DifferenceOfSum(c);
 
             // 1365.How Many Numbers Are Smaller Than the Current Number
 

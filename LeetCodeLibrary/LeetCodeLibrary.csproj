@@ -44,6 +44,9 @@
     <Compile Include="BuildArrayFromPermutation.cs" />
     <Compile Include="ConcatenationOfArray.cs" />
     <Compile Include="ConvertTheTemperature.cs" />
+    <Compile Include="CreateTargetArrayintheGivenOrder.cs" />
+    <Compile Include="DecodeXORedArray.cs" />
+    <Compile Include="DecompressRunLengthEncodedList.cs" />
     <Compile Include="DifferenceBetweenElementSumAndDigitSum.cs" />
     <Compile Include="FinalValue.cs" />
     <Compile Include="KidsWithGreatestNumberCandies.cs" />
