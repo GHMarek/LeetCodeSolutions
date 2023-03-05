@@ -44,9 +44,12 @@
     <Compile Include="BuildArrayFromPermutation.cs" />
     <Compile Include="ConcatenationOfArray.cs" />
     <Compile Include="ConvertTheTemperature.cs" />
+    <Compile Include="CountItemsMatchingARule.cs" />
     <Compile Include="CreateTargetArrayintheGivenOrder.cs" />
     <Compile Include="DecodeXORedArray.cs" />
     <Compile Include="DecompressRunLengthEncodedList.cs" />
+    <Compile Include="NumberOfArithmeticTriplets.cs" />
+    <Compile Include="OrderedStream.cs" />
     <Compile Include="DifferenceBetweenElementSumAndDigitSum.cs" />
     <Compile Include="FinalValue.cs" />
     <Compile Include="KidsWithGreatestNumberCandies.cs" />
@@ -60,7 +63,9 @@
     <Compile Include="RichestCustomerWealth.cs" />
     <Compile Include="RotateImageSolution.cs" />
     <Compile Include="RunningSumOf1dArray.cs" />
+    <Compile Include="ShuffleString.cs" />
     <Compile Include="ShuffleTheArray.cs" />
+    <Compile Include="SortAnArray.cs" />
     <Compile Include="TwoSumSolution.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

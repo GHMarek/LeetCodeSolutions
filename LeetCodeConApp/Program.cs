@@ -17,10 +17,53 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
+            // 2367. Number of Arithmetic Triplets
+
+            NumberOfArithmeticTriplets x = new NumberOfArithmeticTriplets();
+            var nums = new int[] { 0, 1, 4, 6, 7, 10 };
+            var diff = 3;
+            x.ArithmeticTriplets(nums, diff);
+
+
+            // 912. Sort an Array
+
+            //SortAnArray x = new SortAnArray();
+            //int[] c = new int[] { 5, 2, 3, 1 };
+            //x.SortArray(c);
+
+            //Console.WriteLine();
+            // 1773. Count Items Matching a Rule
+
+            //CountItemsMatchingARule x = new CountItemsMatchingARule();
+            //string[][] y = new string[][] { new string[] { "phone", "silver", "pixel" }
+            //,  new string[] { "computer", "silver", "lenovo"}
+            //, new string[] {"phone", "gold", "iphone"}};
+
+            //var c = x.CountMatches(y, "color", "silver");
+
+            //Console.WriteLine();
+
+            // 1656. Design an Ordered Stream
+
+            //OrderedStream x = new OrderedStream(5);
+
+            //var a = x.Insert(3, "ccccc");
+            //var b = x.Insert(1, "aaaaa");
+            //var c = x.Insert(2, "bbbbb");
+            //var d = x.Insert(5, "eeeee");
+            //var e = x.Insert(4, "ddddd");
+
+            //Console.WriteLine();
+            // 1528. Shuffle String
+
+            //ShuffleString x = new ShuffleString();
+            //var c = x.RestoreString("codeleet", new int[] { 4,5,6,7,0,2,1,3});
+            //Console.WriteLine();
+
             // 1313. Decompress Run-Length Encoded List
 
-            DecompressRunLengthEncodedList x = new DecompressRunLengthEncodedList();
-            x.DecompressRLElist(new int[] { 1, 2, 3, 4 });
+            //DecompressRunLengthEncodedList x = new DecompressRunLengthEncodedList();
+            //x.DecompressRLElist(new int[] { 1, 2, 3, 4 });
 
             // 1389. Create Target Array in the Given Order
 
