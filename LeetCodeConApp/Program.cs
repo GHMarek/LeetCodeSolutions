@@ -16,13 +16,63 @@ namespace LeetCodeConApp
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            //
+
+            Console.WriteLine();
+
+
+            // 2418. Sort the People
+
+            //SortThePeople x = new SortThePeople();
+            //var c = x.SortPeople(new string[] { "Mary", "John", "Emma" }, new int[] { 180, 165, 170 });
+
+
+
+            // 1913. Maximum Product Difference Between Two Pairs
+
+            //MaximumProductDifference x = new MaximumProductDifference();
+            //var c = x.MaxProductDifference(new int[] { 5, 6, 2, 7, 4 });
+
+
+            // 2006. Count Number of Pairs With Absolute Difference K
+
+            //CountNumberOfPairsWithAbsoluteDifferenceK x = new CountNumberOfPairsWithAbsoluteDifferenceK();
+            //var c = x.CountKDifference(new int[] { 3, 2, 1, 5, 4 }, 2);
+
+
+            // 1816. Truncate Sentence
+
+            //TruncateSentence x = new TruncateSentence();
+            //var c = x.TruncateSentencee("Hello how are you Contestant", 4);
+
+
+            // 1662. Check If Two String Arrays are Equivalent
+
+            //TwoStringArraysAreEquivalent x = new TwoStringArraysAreEquivalent();
+            //var c = x.ArrayStringsAreEqual(new string[] { "abc", "d", "defg" }, new string[] { "abcd", "defg" });
+
+            // 2373. Largest Local Values in a Matrix
+            // unsolved
+            //LargestLocalValuesInAMatrix x = new LargestLocalValuesInAMatrix();
+            //int[][] c = new int[][]
+            //{
+            //     new int[] {9, 9, 8, 1}
+            //    ,new int[] {5, 6, 2, 6}
+            //    ,new int[] {8, 2, 6, 4}
+            //    ,new int[] {6, 2, 2, 2}
+            //};
+
+            //x.LargestLocal(c);
+
+            //Console.WriteLine();
+
 
             // 2367. Number of Arithmetic Triplets
 
-            NumberOfArithmeticTriplets x = new NumberOfArithmeticTriplets();
-            var nums = new int[] { 0, 1, 4, 6, 7, 10 };
-            var diff = 3;
-            x.ArithmeticTriplets(nums, diff);
+            //NumberOfArithmeticTriplets x = new NumberOfArithmeticTriplets();
+            //var nums = new int[] { 0, 1, 4, 6, 7, 10 };
+            //var diff = 3;
+            //x.ArithmeticTriplets(nums, diff);
 
 
             // 912. Sort an Array
