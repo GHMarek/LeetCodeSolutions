@@ -16,9 +16,31 @@ namespace LeetCodeConApp
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            //
+
+
+            // 2187. Minimum Time to Complete Trips
+
+            MinimumTimeToCompleteTrips x = new MinimumTimeToCompleteTrips();
+            var c = x.MinimumTime(new int[] { 9, 3, 10, 5 }, 2); // exp 5
 
             Console.WriteLine();
+
+            // 1588. Sum of All Odd Length Subarrays
+
+            //SumOfAllOddLengthSubarrays x = new SumOfAllOddLengthSubarrays();
+            //var c = x.SumOddLengthSubarrays(new int[] { 1, 4, 2, 5, 3 });
+            //var c = x.SumOddLengthSubarrays(new int[] { 1 });
+            
+
+
+
+            //Console.WriteLine();
+
+            // 2574. Left and Right Sum Differences
+
+            //LeftAndRightSumDifferences x = new LeftAndRightSumDifferences();
+            //var c = x.LeftRigthDifference(new int[] { 10, 4, 8, 3 });
+
 
 
             // 2418. Sort the People
