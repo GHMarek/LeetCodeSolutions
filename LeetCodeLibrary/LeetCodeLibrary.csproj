@@ -47,8 +47,12 @@
     <Compile Include="CountItemsMatchingARule.cs" />
     <Compile Include="CountNumberOfPairsWithAbsoluteDifferenceK.cs" />
     <Compile Include="CreateTargetArrayintheGivenOrder.cs" />
+    <Compile Include="DecodeTheMessage.cs" />
     <Compile Include="DecodeXORedArray.cs" />
     <Compile Include="DecompressRunLengthEncodedList.cs" />
+    <Compile Include="DefangIp.cs" />
+    <Compile Include="GoalParser.cs" />
+    <Compile Include="JewelsAndStones.cs" />
     <Compile Include="LargestLocalValuesInAMatrix.cs" />
     <Compile Include="LeftAndRightSumDifferences.cs" />
     <Compile Include="MaximumProductDifference.cs" />
@@ -72,6 +76,7 @@
     <Compile Include="ShuffleTheArray.cs" />
     <Compile Include="SortAnArray.cs" />
     <Compile Include="SortThePeople.cs" />
+    <Compile Include="SplitAStringInBalancedString.cs" />
     <Compile Include="SumOfAllOddLengthSubarrays.cs" />
     <Compile Include="TruncateSentence.cs" />
     <Compile Include="TwoStringArraysAreEquivalent.cs" />

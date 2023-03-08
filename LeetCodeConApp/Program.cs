@@ -17,20 +17,53 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
+            // 2325. Decode the Message
+
+            DecodeTheMessage x = new DecodeTheMessage();
+            var c = x.DecodeMessage("the quick brown fox jumps over the lazy dog", "vkbs bs t suepuv");
+
+
+            Console.WriteLine();
+
+            // 1221. Split a String in Balanced Strings
+
+            //SplitAStringInBalancedString x = new SplitAStringInBalancedString();
+            //var c = x.BalancedStringSplit("RLRRLLRLRL");
+
+
+            // 1678. Goal Parser Interpretation
+
+            //GoalParser x = new GoalParser();
+            //var c = x.Interpret("G()()()()(al)");
+
+
+
+            // 771. Jewels and Stones
+
+            //JewelsAndStones x = new JewelsAndStones();
+            //var c = x.NumJewelsInStones("aA", "aAAbbbb");
+
+
+
+            // 1108. Defanging an IP Address
+
+            //DefangIp x = new DefangIp();
+            //var c = x.DefangIPaddr("1.1.1.1");
+
+
 
             // 2187. Minimum Time to Complete Trips
 
-            MinimumTimeToCompleteTrips x = new MinimumTimeToCompleteTrips();
-            var c = x.MinimumTime(new int[] { 9, 3, 10, 5 }, 2); // exp 5
+            //MinimumTimeToCompleteTrips x = new MinimumTimeToCompleteTrips();
+            //var c = x.MinimumTime(new int[] { 9, 3, 10, 5 }, 2); // exp 5
 
-            Console.WriteLine();
 
             // 1588. Sum of All Odd Length Subarrays
 
             //SumOfAllOddLengthSubarrays x = new SumOfAllOddLengthSubarrays();
             //var c = x.SumOddLengthSubarrays(new int[] { 1, 4, 2, 5, 3 });
             //var c = x.SumOddLengthSubarrays(new int[] { 1 });
-            
+
 
 
 
