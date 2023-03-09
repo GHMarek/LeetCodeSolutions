@@ -8,26 +8,36 @@ namespace LeetCodeLibrary
 {
     public class DecodeTheMessage
     {
+        private Dictionary<char, int> subTab = new Dictionary<char, int>() { };
         public string DecodeMessage(string key, string message)
         {
-            Dictionary<char, int> subTab = new Dictionary<char, int>() { };
-            List<int> indX = new List<int>() { };
-            List<char> chaX = new List<char>() { };
 
-            Enumerable.Range(97, 26).ToList().ForEach(x => indX.Add(key.IndexOf(Convert.ToChar(x))));
-            Enumerable.Range(97, 26).ToList().ForEach(x => chaX.Add(Convert.ToChar(x)));
+            foreach (var i in Enumerable.Range(97, 26))
+            {
+                subTab.Add(Convert.ToChar(i), key.IndexOf(Convert.ToString(Convert.ToChar(i))));
+            }
+
+            int cnt = 97;
+            foreach (var i in subTab.OrderBy(x => x.Value))
+            {
+                subTab[i.Key] = cnt;
+                cnt++;
+            }
 
 
-
-            var res = message.Select(x => GetSubst(x)).ToArray();
-
-            return String.Empty;
+            return String.Join("", message.Select(x => GetSubst(x)));
         }
 
         private char GetSubst(char ch)
         {
+            if (ch == ' ')
+            {
+                return ' ';
+            }
 
-            throw new NotImplementedException();
+            var c = subTab[ch];
+
+            return Convert.ToChar(c);
         }
     }
 }

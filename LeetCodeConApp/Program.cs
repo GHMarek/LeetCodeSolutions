@@ -16,14 +16,41 @@ namespace LeetCodeConApp
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            // 2103. Rings and Rods
+
+            RingsAndRods x = new RingsAndRods();
+            var c = x.CountPoints("B0B6G0R6R0R6G9");
+
+            Console.WriteLine();
+            // 557. Reverse Words in a String III
+
+            //ReverseWordsInAString x = new ReverseWordsInAString();
+            //var c = x.ReverseWords("Let's take LeetCode contest");
+
+
+            // 2315. Count Asterisks
+
+            //CountAsterisks x = new CountAsterisks();
+            //var c = x.CountAsteriskss("yo|uar|e**|b|e***au|tifu|l");
+
+
+            // 1684. Count the Number of Consistent Strings
+
+            //CountTheNumberOfConsistentStrings x = new CountTheNumberOfConsistentStrings();
+
+            //var c = x.CountConsistentStrings("ba", new string[] { "ad", "bd", "aaab", "baa", "badab" });
+
+
+
+            // 709. To Lower Case
 
             // 2325. Decode the Message
 
-            DecodeTheMessage x = new DecodeTheMessage();
-            var c = x.DecodeMessage("the quick brown fox jumps over the lazy dog", "vkbs bs t suepuv");
+            //DecodeTheMessage x = new DecodeTheMessage();
+            //var c = x.DecodeMessage("the quick brown fox jumps over the lazy dog", "vkbs bs t suepuv");
 
 
-            Console.WriteLine();
+
 
             // 1221. Split a String in Balanced Strings
 
@@ -295,7 +322,6 @@ namespace LeetCodeConApp
             //nums = [3, 2, 4], target = 6
             //var t = TwoSumSolution.TwoSum(new int[] { 3, 3 }, 6);
 
-            Console.ReadLine();
         }
     }
 }

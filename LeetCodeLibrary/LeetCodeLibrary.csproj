@@ -44,8 +44,10 @@
     <Compile Include="BuildArrayFromPermutation.cs" />
     <Compile Include="ConcatenationOfArray.cs" />
     <Compile Include="ConvertTheTemperature.cs" />
+    <Compile Include="CountAsterisks.cs" />
     <Compile Include="CountItemsMatchingARule.cs" />
     <Compile Include="CountNumberOfPairsWithAbsoluteDifferenceK.cs" />
+    <Compile Include="CountTheNumberOfConsistentStrings.cs" />
     <Compile Include="CreateTargetArrayintheGivenOrder.cs" />
     <Compile Include="DecodeTheMessage.cs" />
     <Compile Include="DecodeXORedArray.cs" />
@@ -69,7 +71,9 @@
     <Compile Include="PowerOfFourSolution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemoveDuplicatesSolution.cs" />
+    <Compile Include="ReverseWordsInAString.cs" />
     <Compile Include="RichestCustomerWealth.cs" />
+    <Compile Include="RingsAndRods.cs" />
     <Compile Include="RotateImageSolution.cs" />
     <Compile Include="RunningSumOf1dArray.cs" />
     <Compile Include="ShuffleString.cs" />
@@ -78,6 +82,7 @@
     <Compile Include="SortThePeople.cs" />
     <Compile Include="SplitAStringInBalancedString.cs" />
     <Compile Include="SumOfAllOddLengthSubarrays.cs" />
+    <Compile Include="ToLowerCase.cs" />
     <Compile Include="TruncateSentence.cs" />
     <Compile Include="TwoStringArraysAreEquivalent.cs" />
     <Compile Include="TwoSumSolution.cs" />
