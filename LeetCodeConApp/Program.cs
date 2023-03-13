@@ -16,12 +16,38 @@ namespace LeetCodeConApp
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            // 2103. Rings and Rods
 
-            RingsAndRods x = new RingsAndRods();
-            var c = x.CountPoints("B0B6G0R6R0R6G9");
+            // 2399. Check Distances Between Same Letters
+
+            CheckDistancesBetweenSameLetters x = new CheckDistancesBetweenSameLetters();
+            x.CheckDistances("abaccb", new int[] { 1, 3, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 });
 
             Console.WriteLine();
+            // 2154. Keep Multiplying Found Values by Two
+
+            //KeepMultiplyingFoundValuesByTwo x = new KeepMultiplyingFoundValuesByTwo();
+            //x.FindFinalValue(new int[] { 5, 3, 6, 1, 12 }, 3);
+
+            // 2357. Make Array Zero by Subtracting Equal Amounts
+            //MakeArrayZeroBySubtractingEqualAmounts x = new MakeArrayZeroBySubtractingEqualAmounts();
+            //x.MinimumOperations(new int[] { 1, 5, 0, 3, 5 });
+
+
+
+            // 1748. Sum of Unique Elements
+
+            //SumOfUniqueElements x = new SumOfUniqueElements();
+            //x.SumOfUnique(new int[] { 1, 2, 3, 4, 5 });
+
+
+
+
+            // 2103. Rings and Rods
+
+            //RingsAndRods x = new RingsAndRods();
+            //var c = x.CountPoints("B0B6G0R6R0R6G9");
+
+
             // 557. Reverse Words in a String III
 
             //ReverseWordsInAString x = new ReverseWordsInAString();
