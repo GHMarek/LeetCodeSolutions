@@ -17,12 +17,30 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
+            // 1370. Increasing Decreasing String
+
+            //IncreasingDecreasingString x = new IncreasingDecreasingString();
+            //x.SortString("leetcode");
+
+            // 1436. Destination City
+
+            //DestinationCity x = new DestinationCity();
+            //x.DestCity(new List<List<string>>() { new List<string>() { "London", "New York" },new List<string>() { "New York", "Lima" }, new List<string>() { "Lima","Sao Paulo"}});
+
+
+
+            // 1832. Check if the Sentence Is Pangram
+
+            //CheckIfTheSentenceIsPangram x = new CheckIfTheSentenceIsPangram();
+            //var c = x.CheckIfPangram("thequickbrownfoxjumpsoverthelazydog");
+
+
             // 2399. Check Distances Between Same Letters
 
-            CheckDistancesBetweenSameLetters x = new CheckDistancesBetweenSameLetters();
-            x.CheckDistances("abaccb", new int[] { 1, 3, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 });
+            //CheckDistancesBetweenSameLetters x = new CheckDistancesBetweenSameLetters();
+            //x.CheckDistances("abaccb", new int[] { 1, 3, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 });
 
-            Console.WriteLine();
+
             // 2154. Keep Multiplying Found Values by Two
 
             //KeepMultiplyingFoundValuesByTwo x = new KeepMultiplyingFoundValuesByTwo();

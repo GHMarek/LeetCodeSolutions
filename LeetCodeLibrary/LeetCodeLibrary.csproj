@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="BuildArrayFromPermutation.cs" />
     <Compile Include="CheckDistancesBetweenSameLetters.cs" />
+    <Compile Include="CheckIfTheSentenceIsPangram.cs" />
     <Compile Include="ConcatenationOfArray.cs" />
     <Compile Include="ConvertTheTemperature.cs" />
     <Compile Include="CountAsterisks.cs" />
@@ -54,7 +55,9 @@
     <Compile Include="DecodeXORedArray.cs" />
     <Compile Include="DecompressRunLengthEncodedList.cs" />
     <Compile Include="DefangIp.cs" />
+    <Compile Include="DestinationCity.cs" />
     <Compile Include="GoalParser.cs" />
+    <Compile Include="IncreasingDecreasingString.cs" />
     <Compile Include="JewelsAndStones.cs" />
     <Compile Include="KeepMultiplyingFoundValuesByTwo.cs" />
     <Compile Include="LargestLocalValuesInAMatrix.cs" />
