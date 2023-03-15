@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.UI.WebControls;
 using LeetCodeLibrary;
 using NUnit.Framework;
 
@@ -16,6 +17,20 @@ namespace LeetCodeConApp
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+
+            // 118. Pascal's Triangle
+
+            PascalTriangle x = new PascalTriangle();
+            x.Generate(5);
+
+
+            // 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
+            // TODO: add binary tree impl. to test bt Problems
+
+            //object p = BinaryTree(new int?[] { 7, 4, 3, null, null, 6, 19 });
+            //FindCorrespondingNodeOfABinaryTreeInACloneOfThatTree x = new FindCorrespondingNodeOfABinaryTreeInACloneOfThatTree();
+            //TreeNode treeNode = x.GetTargetCopy((), new TreeNode(), new TreeNode() );
+
 
             // 1370. Increasing Decreasing String
 
