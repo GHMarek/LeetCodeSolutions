@@ -18,10 +18,35 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
+            // 2363. Merge Similar Items
+
+            MergeSimilarItems x = new MergeSimilarItems();
+            int[][] ite1 = new int[][]
+            {
+                 new int[] { 1, 1 }
+                ,new int[] { 4, 5 }
+                ,new int[] { 3, 8 }
+            };
+            int[][] ite2 = new int[][]
+            {
+                 new int[] { 2, 1 }
+                ,new int[] { 3, 2 }
+                //,new int[] { 1, 3 }
+            };
+            var c = x.MergeSimilarItemss(ite1, ite2);
+
+            Console.WriteLine();
+
+            // 2341.Maximum Number of Pairs in Array
+
+            //MaximumNumberOfPairsInArray x = new MaximumNumberOfPairsInArray();
+            //var c = x.NumberOfPairs(new int[] { 1, 1 });
+
+
             // 118. Pascal's Triangle
 
-            PascalTriangle x = new PascalTriangle();
-            x.Generate(5);
+            //PascalTriangle x = new PascalTriangle();
+            //x.Generate(5);
 
 
             // 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree

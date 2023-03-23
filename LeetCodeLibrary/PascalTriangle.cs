@@ -15,35 +15,45 @@ namespace LeetCodeLibrary
             for (int i = 0; i < numRows; i++)
             {
 
-                if (i < 2)
+                switch (i)
                 {
-                    var c = Enumerable.Repeat("1", i + 1).ToArray().Select(x => Int32.Parse(x)).ToArray();
+                    case 0:
+                        res.Add(new int[] { 1 } );
+                        break;
 
-                    res.Add(c);
+                    case 1:
+                        res.Add(new int[] { 1, 1 });
+                        break;
 
-                    continue;
-                }
-
-                int[] row = new int[i];
-
-                row[0] = 1;
-                row[i - 1] = 1;
-
-                for (int j = 0; j < i - 1; j++)
-                {
-
-                    var t = res[i - 2][j + 1];
-                    var tt = res[i - 2][j];
-                    row[j] = res[i - 2][j] + res[i - 2][j + 1];
-                    res.Add(row);
+                    default:
+                        DefaultSwitch(res, i);
+                        break;
 
                 }
 
-                //res.AddRange();
             }
 
-
             return res;
+        }
+
+        private static void DefaultSwitch(List<IList<int>> res, int i)
+        {
+            int[] row = new int[i + 1];
+
+            row[0] = 1;
+            row[i] = 1;
+
+            for (int j = 1; j <= i - 1; j++)
+            {
+                // -1 bo to index listy, w której są rows
+
+                var t = res[i - 1][j];
+                var tt = res[i - 1][j - 1];
+
+                row[j] = t + tt;
+            }
+
+            res.Add(row);
         }
     }
 }
