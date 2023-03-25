@@ -18,24 +18,45 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
-            // 2363. Merge Similar Items
+            // 1281. Subtract the Product and Sum of Digits of an Integer
 
-            MergeSimilarItems x = new MergeSimilarItems();
-            int[][] ite1 = new int[][]
-            {
-                 new int[] { 1, 1 }
-                ,new int[] { 4, 5 }
-                ,new int[] { 3, 8 }
-            };
-            int[][] ite2 = new int[][]
-            {
-                 new int[] { 2, 1 }
-                ,new int[] { 3, 2 }
-                //,new int[] { 1, 3 }
-            };
-            var c = x.MergeSimilarItemss(ite1, ite2);
+            SubtractTheProductandSumOfDigitsOfAnInteger x = new SubtractTheProductandSumOfDigitsOfAnInteger();
+            var c = x.SubtractProductAndSum(234);
 
             Console.WriteLine();
+
+            // 2160. Minimum Sum of Four Digit Number After Splitting Digits
+
+            //MinimumSumofFourDigitNumberAfterSplittingDigits x = new MinimumSumofFourDigitNumberAfterSplittingDigits();
+            //var c = x.MinimumSum(2932);
+
+
+
+            // 2413. Smallest Even Multiple
+
+            //SmallestEvenMultiple x = new SmallestEvenMultiple();
+            //var c = x.SmallesttEvenMultiple(5);
+
+
+
+            // 2363. Merge Similar Items
+
+            //MergeSimilarItems x = new MergeSimilarItems();
+            //int[][] ite1 = new int[][]
+            //{
+            //     new int[] { 1, 1 }
+            //    ,new int[] { 4, 5 }
+            //    ,new int[] { 3, 8 }
+            //};
+            //int[][] ite2 = new int[][]
+            //{
+            //     new int[] { 2, 1 }
+            //    ,new int[] { 3, 2 }
+            //    //,new int[] { 1, 3 }
+            //};
+            //var c = x.MergeSimilarItemss(ite1, ite2);
+
+
 
             // 2341.Maximum Number of Pairs in Array
 

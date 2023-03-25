@@ -69,6 +69,7 @@
     <Compile Include="MaximumNumberOfPairsInArray.cs" />
     <Compile Include="MaximumProductDifference.cs" />
     <Compile Include="MergeSimilarItems.cs" />
+    <Compile Include="MinimumSumofFourDigitNumberAfterSplittingDigits.cs" />
     <Compile Include="MinimumTimeToCompleteTrips.cs" />
     <Compile Include="NumberOfArithmeticTriplets.cs" />
     <Compile Include="OrderedStream.cs" />
@@ -90,9 +91,11 @@
     <Compile Include="RunningSumOf1dArray.cs" />
     <Compile Include="ShuffleString.cs" />
     <Compile Include="ShuffleTheArray.cs" />
+    <Compile Include="SmallestEvenMultiple.cs" />
     <Compile Include="SortAnArray.cs" />
     <Compile Include="SortThePeople.cs" />
     <Compile Include="SplitAStringInBalancedString.cs" />
+    <Compile Include="SubtractTheProductandSumOfDigitsOfAnInteger.cs" />
     <Compile Include="SumOfAllOddLengthSubarrays.cs" />
     <Compile Include="SumOfUniqueElements.cs" />
     <Compile Include="ToLowerCase.cs" />
