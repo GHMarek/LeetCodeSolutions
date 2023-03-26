@@ -66,6 +66,7 @@
     <Compile Include="LargestLocalValuesInAMatrix.cs" />
     <Compile Include="LeftAndRightSumDifferences.cs" />
     <Compile Include="MakeArrayZeroBySubtractingEqualAmounts.cs" />
+    <Compile Include="MatrixDiagonalSum.cs" />
     <Compile Include="MaximumNumberOfPairsInArray.cs" />
     <Compile Include="MaximumProductDifference.cs" />
     <Compile Include="MergeSimilarItems.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="SortAnArray.cs" />
     <Compile Include="SortThePeople.cs" />
     <Compile Include="SplitAStringInBalancedString.cs" />
+    <Compile Include="SubrectangleQueries.cs" />
     <Compile Include="SubtractTheProductandSumOfDigitsOfAnInteger.cs" />
     <Compile Include="SumOfAllOddLengthSubarrays.cs" />
     <Compile Include="SumOfUniqueElements.cs" />

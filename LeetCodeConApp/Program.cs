@@ -18,12 +18,31 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
+            // 1572. Matrix Diagonal Sum
+
+            //MatrixDiagonalSum x = new MatrixDiagonalSum();
+            //int[][] matrix = new int[][] { new int[] { 5 }};
+            //x.DiagonalSum(matrix);
+
+
+            //Console.WriteLine();
+
+            // 1476. Subrectangle Queries
+
+            //SubrectangleQueries obj = new SubrectangleQueries(new int[][] { new int[] { 1, 2, 1 }, new int[] { 4, 3, 4 }, new int[] { 3, 2, 1}, new int[] { 1, 1, 1} });
+            //var firstVal = obj.GetValue(0, 2);
+            //obj.UpdateSubrectangle(0, 0, 3, 2, 5);
+            //obj.UpdateSubrectangle(3, 0, 3, 2, 10);
+
+
+            //obj.UpdateSubrectangle(row1, col1, row2, col2, newValue);
+            //int param_2 = obj.GetValue(row, col);
+
             // 1281. Subtract the Product and Sum of Digits of an Integer
 
-            SubtractTheProductandSumOfDigitsOfAnInteger x = new SubtractTheProductandSumOfDigitsOfAnInteger();
-            var c = x.SubtractProductAndSum(234);
+            //SubtractTheProductandSumOfDigitsOfAnInteger x = new SubtractTheProductandSumOfDigitsOfAnInteger();
+            //var c = x.SubtractProductAndSum(234);
 
-            Console.WriteLine();
 
             // 2160. Minimum Sum of Four Digit Number After Splitting Digits
 
