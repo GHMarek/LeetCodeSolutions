@@ -18,6 +18,25 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
+            // 94. Binary Tree Inorder Traversal
+
+
+
+            Console.WriteLine();
+            // 64. Minimum Path Sum
+
+            //MinimumPathSum x = new MinimumPathSum();
+            ////var c = x.MinPathSum(new int[][] { new int[] { 1, 3, 1 }, new int[] { 1, 5, 1 }, new int[] { 4, 2, 1 } });
+            //var c = x.MinPathSum(new int[][] { new int[] { 1, 2, 3 }, new int[] { 4, 5, 6 } });
+
+
+            // 938. Range Sum of BST
+
+            //RangeSumOfBST x = new RangeSumOfBST();
+
+
+            // 1603. Design Parking System
+
             // 1572. Matrix Diagonal Sum
 
             //MatrixDiagonalSum x = new MatrixDiagonalSum();
