@@ -52,6 +52,7 @@
     <Compile Include="CountAsterisks.cs" />
     <Compile Include="CountItemsMatchingARule.cs" />
     <Compile Include="CountNumberOfPairsWithAbsoluteDifferenceK.cs" />
+    <Compile Include="CountTheDigitsThatDivideNumber.cs" />
     <Compile Include="CountTheNumberOfConsistentStrings.cs" />
     <Compile Include="CreateTargetArrayintheGivenOrder.cs" />
     <Compile Include="DecodeTheMessage.cs" />

@@ -18,11 +18,22 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
-            // 94. Binary Tree Inorder Traversal
+            // 1022. Sum of Root To Leaf Binary Numbers
 
 
 
             Console.WriteLine();
+            // 2236. Root Equals Sum of Children
+
+            // 2520. Count the Digits That Divide a Number
+
+            //CountTheDigitsThatDivideNumber x = new CountTheDigitsThatDivideNumber();
+            //var c = x.CountDigits(7);
+
+
+
+            // 94. Binary Tree Inorder Traversal
+
             // 64. Minimum Path Sum
 
             //MinimumPathSum x = new MinimumPathSum();
