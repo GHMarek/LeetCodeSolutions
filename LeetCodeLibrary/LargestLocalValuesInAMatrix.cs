@@ -8,7 +8,7 @@ namespace LeetCodeLibrary
 {
     public class LargestLocalValuesInAMatrix
     {
-        // TODO: unsolved
+
         public int[][] LargestLocal(int[][] grid)
         {
 
@@ -17,15 +17,27 @@ namespace LeetCodeLibrary
 
             int[][] resMatrix = GetMatrix(newLen);
 
-            for (int i = 0; i < len; i++)
+            for (int i = 0; i < newLen; i++)
             {
-                for (int j = 0; j < len; j++)
+                for (int j = 0; j < newLen; j++)
                 {
+                    var row1 = grid[i].Skip(j).Take(3);
+                    var row2 = grid[i + 1].Skip(j).Take(3);
+                    var row3 = grid[i + 2].Skip(j).Take(3);
 
+                    int[] localMax = new int[] { 
+                        
+                        grid[i].Skip(j).Take(3).Max()
+                        , grid[i + 1].Skip(j).Take(3).Max()
+                        , grid[i + 2].Skip(j).Take(3).Max() 
+
+                    };
+
+                    resMatrix[i][j] = localMax.OrderByDescending(x => x).First();
                 }
             }
 
-            return new int[][] { };
+            return resMatrix;
         }
 
         private static int[][] GetMatrix(int l)

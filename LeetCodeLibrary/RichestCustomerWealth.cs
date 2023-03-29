@@ -10,8 +10,18 @@ namespace LeetCodeLibrary
     {
         public int MaximumWealth(int[][] accounts)
         {
+            int res = 0;
 
-            return 0;
+            for (int i = 0; i < accounts.Length; i++)
+            {
+                int wealth = accounts[i].Sum();
+                if (wealth > res)
+                {
+                    res = wealth;
+                }
+            }
+
+            return res;
         }
     }
 }

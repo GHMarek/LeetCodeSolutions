@@ -93,6 +93,7 @@
     <Compile Include="ReverseWordsInAString.cs" />
     <Compile Include="RichestCustomerWealth.cs" />
     <Compile Include="RingsAndRods.cs" />
+    <Compile Include="RootEqualsSumOfChildren.cs" />
     <Compile Include="RotateImageSolution.cs" />
     <Compile Include="RunningSumOf1dArray.cs" />
     <Compile Include="ShuffleString.cs" />
@@ -104,6 +105,7 @@
     <Compile Include="SubrectangleQueries.cs" />
     <Compile Include="SubtractTheProductandSumOfDigitsOfAnInteger.cs" />
     <Compile Include="SumOfAllOddLengthSubarrays.cs" />
+    <Compile Include="SumOfRootToLeafBinaryNumbers.cs" />
     <Compile Include="SumOfUniqueElements.cs" />
     <Compile Include="ToLowerCase.cs" />
     <Compile Include="TruncateSentence.cs" />

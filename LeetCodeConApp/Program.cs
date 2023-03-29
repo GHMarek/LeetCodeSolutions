@@ -22,7 +22,7 @@ namespace LeetCodeConApp
 
 
 
-            Console.WriteLine();
+            //Console.WriteLine();
             // 2236. Root Equals Sum of Children
 
             // 2520. Count the Digits That Divide a Number
@@ -287,9 +287,10 @@ namespace LeetCodeConApp
             //TwoStringArraysAreEquivalent x = new TwoStringArraysAreEquivalent();
             //var c = x.ArrayStringsAreEqual(new string[] { "abc", "d", "defg" }, new string[] { "abcd", "defg" });
 
-            // 2373. Largest Local Values in a Matrix
-            // unsolved
+            //2373.Largest Local Values in a Matrix
+
             //LargestLocalValuesInAMatrix x = new LargestLocalValuesInAMatrix();
+
             //int[][] c = new int[][]
             //{
             //     new int[] {9, 9, 8, 1}
@@ -297,6 +298,8 @@ namespace LeetCodeConApp
             //    ,new int[] {8, 2, 6, 4}
             //    ,new int[] {6, 2, 2, 2}
             //};
+
+            //var d = x.LargestLocal(c);
 
             //x.LargestLocal(c);
 
@@ -363,10 +366,11 @@ namespace LeetCodeConApp
             // 1720. Decode XORed Array
 
             //DecodeXORedArray x = new DecodeXORedArray();
-            //var c = new int[] { 1, 2, 3};
+            //var c = new int[] { 1, 2, 3 };
             //var z = 1;
-            //x.Decode(c, z);
+            //var t = x.Decode(c, z);
 
+            //Console.WriteLine();
             // 2535. Difference Between Element Sum and Digit Sum of an Array
 
             //DifferenceBetweenElementSumAndDigitSum x = new DifferenceBetweenElementSumAndDigitSum();
@@ -390,7 +394,7 @@ namespace LeetCodeConApp
             // 1672. Richest Customer Wealth
 
             //RichestCustomerWealth x = new RichestCustomerWealth();
-            //var c = new int[,] { {1, 4, 2}, {3, 6, 8} };
+            //var c = new int[][] { new int[] { 1, 4, 2 }, new int[] { 3, 6, 8 } };
             //x.MaximumWealth(c);
 
             // 1480. Running Sum of 1d Array
