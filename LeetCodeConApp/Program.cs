@@ -17,6 +17,34 @@ namespace LeetCodeConApp
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            // 807. Max Increase to Keep City Skyline
+
+            Console.WriteLine();
+
+            // 1828. Queries on Number of Points Inside a Circle
+
+            //QueriesOnNumberOfPointsInsideACircle x = new QueriesOnNumberOfPointsInsideACircle();
+            //var points = new int[][] { new int[] { 1, 3 }, new int[] { 3, 3 }, new int[] { 5, 3 }, new int[] { 2, 2 } };
+            //var queries = new int[][] { new int[] { 2, 3, 1 }, new int[] { 4, 3, 1 }, new int[] { 1, 1, 2 } };
+            //var c = x.CountPoints(points, queries);
+
+
+
+            // 1791. Find Center of Star Graph
+
+            //FindCenterOfStarGraph x = new FindCenterOfStarGraph();
+            //var c = x.FindCenter(new int[][] { new int[] { 1, 2 }, new int[] { 5, 1 }, new int[] { 1, 3 }, new int[] { 1, 4 } } ); 
+
+            // 1486. XOR Operation in an Array
+
+            //XOROperationInAnArray x = new XOROperationInAnArray();
+            //var c = x.XorOperation(5, 0);
+
+            // 1342. Number of Steps to Reduce a Number to Zero
+
+            //NumberOfStepsToReduceANumberToZero x = new NumberOfStepsToReduceANumberToZero();
+            //var c = x.NumberOfSteps(14);
+
 
             // 1022. Sum of Root To Leaf Binary Numbers
 
