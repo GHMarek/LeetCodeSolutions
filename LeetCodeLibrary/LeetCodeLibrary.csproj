@@ -73,6 +73,7 @@
     <Compile Include="MatrixDiagonalSum.cs" />
     <Compile Include="MaximumNumberOfPairsInArray.cs" />
     <Compile Include="MaximumProductDifference.cs" />
+    <Compile Include="MaxIncreaseToKeepCitySkyline.cs" />
     <Compile Include="MergeSimilarItems.cs" />
     <Compile Include="MinimumPathSum.cs" />
     <Compile Include="MinimumSumofFourDigitNumberAfterSplittingDigits.cs" />
