@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinarySearch.cs" />
     <Compile Include="BinaryTree.cs" />
     <Compile Include="BinaryTreeInOrderTraversal.cs" />
     <Compile Include="BuildArrayFromPermutation.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="FindCenterOfStarGraph.cs" />
     <Compile Include="FindCorrespondingNodeOfABinaryTreeInACloneOfThatTree.cs" />
     <Compile Include="GoalParser.cs" />
+    <Compile Include="GroupThePeopleGivenTheGroupSizeTheyBelongTo.cs" />
     <Compile Include="IncreasingDecreasingString.cs" />
     <Compile Include="JewelsAndStones.cs" />
     <Compile Include="KeepMultiplyingFoundValuesByTwo.cs" />
@@ -105,6 +107,7 @@
     <Compile Include="SmallestEvenMultiple.cs" />
     <Compile Include="SortAnArray.cs" />
     <Compile Include="SortThePeople.cs" />
+    <Compile Include="SortTheStudentsByTheirKthScore.cs" />
     <Compile Include="SplitAStringInBalancedString.cs" />
     <Compile Include="SubrectangleQueries.cs" />
     <Compile Include="SubtractTheProductandSumOfDigitsOfAnInteger.cs" />

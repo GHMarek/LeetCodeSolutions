@@ -17,9 +17,41 @@ namespace LeetCodeConApp
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            // 807. Max Increase to Keep City Skyline
+            // 2194. Cells in a Range on an Excel Sheet
+
+
+
 
             Console.WriteLine();
+
+
+
+            // 1282. Group the People Given the Group Size They Belong To
+            //GroupThePeopleGivenTheGroupSizeTheyBelongTo x = new GroupThePeopleGivenTheGroupSizeTheyBelongTo();
+            //var c = x.GroupThePeople(new int[] { 3, 3, 3, 3, 3, 1, 3 });
+
+
+            // 2545. Sort the Students by Their Kth Score
+
+            //SortTheStudentsByTheirKthScore x = new SortTheStudentsByTheirKthScore();
+            //var c = x.SortTheStudents(new int[][] { new int[] { 10, 6, 9, 1 }, new int[] { 7, 5, 11, 2 }, new int[] { 4, 8, 3, 15 } }, 2);
+
+
+
+
+            // 704. Binary Search
+
+            //BinarySearch x = new BinarySearch();
+            //var c = x.Search(new int[] { -1, 0, 3, 5, 9, 12 }, 9);
+
+
+
+            // 807. Max Increase to Keep City Skyline
+
+            //MaxIncreaseToKeepCitySkyline x = new MaxIncreaseToKeepCitySkyline();
+            //var c = x.MaxIncreaseKeepingSkyline(new int[][] { new int[] { 3, 0, 8, 4 }, new int[] { 2, 4, 5, 7 }, new int[] { 9, 2, 6, 3 }, new int[] { 0, 3, 1, 0 } });
+
+
 
             // 1828. Queries on Number of Points Inside a Circle
 
