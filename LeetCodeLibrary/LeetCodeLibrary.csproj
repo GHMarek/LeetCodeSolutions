@@ -46,6 +46,7 @@
     <Compile Include="BinaryTree.cs" />
     <Compile Include="BinaryTreeInOrderTraversal.cs" />
     <Compile Include="BuildArrayFromPermutation.cs" />
+    <Compile Include="CellsInARangeOnAnExcelSheet.cs" />
     <Compile Include="CheckDistancesBetweenSameLetters.cs" />
     <Compile Include="CheckIfTheSentenceIsPangram.cs" />
     <Compile Include="ConcatenationOfArray.cs" />
@@ -53,6 +54,7 @@
     <Compile Include="CountAsterisks.cs" />
     <Compile Include="CountItemsMatchingARule.cs" />
     <Compile Include="CountNumberOfPairsWithAbsoluteDifferenceK.cs" />
+    <Compile Include="CountOfMatchesInTournament.cs" />
     <Compile Include="CountTheDigitsThatDivideNumber.cs" />
     <Compile Include="CountTheNumberOfConsistentStrings.cs" />
     <Compile Include="CreateTargetArrayintheGivenOrder.cs" />
@@ -106,6 +108,7 @@
     <Compile Include="ShuffleTheArray.cs" />
     <Compile Include="SmallestEvenMultiple.cs" />
     <Compile Include="SortAnArray.cs" />
+    <Compile Include="SortingTheSentence.cs" />
     <Compile Include="SortThePeople.cs" />
     <Compile Include="SortTheStudentsByTheirKthScore.cs" />
     <Compile Include="SplitAStringInBalancedString.cs" />

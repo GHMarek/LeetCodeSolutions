@@ -17,14 +17,23 @@ namespace LeetCodeConApp
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            // 2194. Cells in a Range on an Excel Sheet
 
+            // 1688. Count of Matches in Tournament
 
-
+            //CountOfMatchesInTournament x = new CountOfMatchesInTournament();
+            //var c = x.NumberOfMatches(7);
 
             Console.WriteLine();
+            // 1859. Sorting the Sentence
+
+            //SortingTheSentence x = new SortingTheSentence();
+            //var c = x.SortSentence("sentence4 a3 is2 This1");
 
 
+            // 2194. Cells in a Range on an Excel Sheet
+
+            //CellsInARangeOnAnExcelSheet x = new CellsInARangeOnAnExcelSheet();
+            //var c = x.CellsInRange("U7:X9");
 
             // 1282. Group the People Given the Group Size They Belong To
             //GroupThePeopleGivenTheGroupSizeTheyBelongTo x = new GroupThePeopleGivenTheGroupSizeTheyBelongTo();
