@@ -18,12 +18,53 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
+            // 2500. Delete Greatest Value in Each Row
+            DeleteGreatestValueInEachRow x = new DeleteGreatestValueInEachRow();
+            var c = x.DeleteGreatestValue(new int[][] { new int[] { 1, 2, 4 }, new int[] { 3, 3, 1 } });
+
+            Console.WriteLine();
+
+            // 832. Flipping an Image
+
+
+            // 1534. Count Good Triplets
+            //CountGoodTriplets x = new CountGoodTriplets();
+            //var c = x.CountGoodTripletss(new int[] { 3, 0, 1, 1, 9, 7 }, 7, 2, 3);
+
+
+
+
+            // 1323. Maximum 69 Number
+            //Maximum69Number x = new Maximum69Number();
+            //x.Maximum69Numberr(9999);
+
+            // 2037. Minimum Number of Moves to Seat Everyone
+
+            //MinimumNumberOfMovesToSeatEveryone x = new MinimumNumberOfMovesToSeatEveryone();
+            //var c = x.MinMovesToSeat(new int[] { 3, 1, 5 }, new int[] { 2, 7, 4 });
+
+            // 2220. Minimum Bit Flips to Convert Number
+            //MinimumBitFlipsToConvertNumber x = new MinimumBitFlipsToConvertNumber();
+            //var c = x.MinBitFlips(3, 4);
+
+            // 1290. Convert Binary Number in a Linked List to Integer
+            //ConvertBinaryNumberInALinkedListToInteger x = new ConvertBinaryNumberInALinkedListToInteger();
+            //ListNode t = new ListNode() { val = 1};
+            //t.next = new ListNode() { val = 0 };
+            //t.next = new ListNode() { val = 1 };
+            //var c = x.GetDecimalValue(t);
+
+
+            // 1614. Maximum Nesting Depth of the Parentheses
+            //MaximumNestingDepthOfTheParentheses x = new MaximumNestingDepthOfTheParentheses();
+            //x.MaxDepth("(1+(2*3)+((8)/4))+1");
+
             // 1688. Count of Matches in Tournament
 
             //CountOfMatchesInTournament x = new CountOfMatchesInTournament();
             //var c = x.NumberOfMatches(7);
 
-            Console.WriteLine();
+
             // 1859. Sorting the Sentence
 
             //SortingTheSentence x = new SortingTheSentence();
