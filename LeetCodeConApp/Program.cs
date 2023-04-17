@@ -18,11 +18,25 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
-            // 2500. Delete Greatest Value in Each Row
-            DeleteGreatestValueInEachRow x = new DeleteGreatestValueInEachRow();
-            var c = x.DeleteGreatestValue(new int[][] { new int[] { 1, 2, 4 }, new int[] { 3, 3, 1 } });
+            ReplaceAllDigitsWithCharacters x = new ReplaceAllDigitsWithCharacters();
+            var c = x.ReplaceDigits("a1b2c3d4e");
 
             Console.WriteLine();
+
+            // 1475. Final Prices With a Special Discount in a Shop
+
+            //FinalPricesWithASpecialDiscountInAShop x = new FinalPricesWithASpecialDiscountInAShop();
+            //x.FinalPrices(new int[] { 8, 4, 6, 2, 3 });
+
+            // 1021. Remove Outermost Parentheses
+
+            //RemoveOutermostParentheses x = new RemoveOutermostParentheses();
+            //x.RemoveOuterParentheses("(()())(())(()(()))");
+
+            // 2500. Delete Greatest Value in Each Row
+            //DeleteGreatestValueInEachRow x = new DeleteGreatestValueInEachRow();
+            //var c = x.DeleteGreatestValue(new int[][] { new int[] { 1, 2, 4 }, new int[] { 3, 3, 1 } });
+
 
             // 832. Flipping an Image
 

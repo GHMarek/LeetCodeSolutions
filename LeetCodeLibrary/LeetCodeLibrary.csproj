@@ -67,6 +67,7 @@
     <Compile Include="DeleteGreatestValueInEachRow.cs" />
     <Compile Include="DesignParkingSystem.cs" />
     <Compile Include="DestinationCity.cs" />
+    <Compile Include="FinalPricesWithASpecialDiscountInAShop.cs" />
     <Compile Include="FindCenterOfStarGraph.cs" />
     <Compile Include="FindCorrespondingNodeOfABinaryTreeInACloneOfThatTree.cs" />
     <Compile Include="FlippingAnImage.cs" />
@@ -107,6 +108,8 @@
     <Compile Include="QueriesOnNumberOfPointsInsideACircle.cs" />
     <Compile Include="RangeSumOfBST.cs" />
     <Compile Include="RemoveDuplicatesSolution.cs" />
+    <Compile Include="RemoveOutermostParentheses.cs" />
+    <Compile Include="ReplaceAllDigitsWithCharacters.cs" />
     <Compile Include="ReverseWordsInAString.cs" />
     <Compile Include="RichestCustomerWealth.cs" />
     <Compile Include="RingsAndRods.cs" />
