@@ -70,6 +70,7 @@
     <Compile Include="FinalPricesWithASpecialDiscountInAShop.cs" />
     <Compile Include="FindCenterOfStarGraph.cs" />
     <Compile Include="FindCorrespondingNodeOfABinaryTreeInACloneOfThatTree.cs" />
+    <Compile Include="FindThePivotInteger.cs" />
     <Compile Include="FlippingAnImage.cs" />
     <Compile Include="GoalParser.cs" />
     <Compile Include="GroupThePeopleGivenTheGroupSizeTheyBelongTo.cs" />
@@ -87,6 +88,7 @@
     <Compile Include="MaximumProductDifference.cs" />
     <Compile Include="MaxIncreaseToKeepCitySkyline.cs" />
     <Compile Include="MergeSimilarItems.cs" />
+    <Compile Include="MergeStringsAlternately.cs" />
     <Compile Include="MinimumBitFlipsToConvertNumber.cs" />
     <Compile Include="MinimumNumberOfMovesToSeatEveryone.cs" />
     <Compile Include="MinimumPathSum.cs" />
@@ -127,6 +129,7 @@
     <Compile Include="SubrectangleQueries.cs" />
     <Compile Include="SubtractTheProductandSumOfDigitsOfAnInteger.cs" />
     <Compile Include="SumOfAllOddLengthSubarrays.cs" />
+    <Compile Include="SumOfAllSubsetXORTotals.cs" />
     <Compile Include="SumOfRootToLeafBinaryNumbers.cs" />
     <Compile Include="SumOfUniqueElements.cs" />
     <Compile Include="ToLowerCase.cs" />

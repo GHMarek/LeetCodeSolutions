@@ -18,10 +18,34 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
-            ReplaceAllDigitsWithCharacters x = new ReplaceAllDigitsWithCharacters();
-            var c = x.ReplaceDigits("a1b2c3d4e");
+            //
 
             Console.WriteLine();
+
+
+            // 2485. Find the Pivot Integer
+
+            //FindThePivotInteger x = new FindThePivotInteger();
+            //var c = x.PivotInteger(49);
+
+
+            // 1863. Sum of All Subset XOR Totals
+
+            //SumOfAllSubsetXORTotals x = new SumOfAllSubsetXORTotals();
+            //var c = x.SubsetXORSum( new int[] { 3,4,5,6,7,8 });
+
+
+            // 1768. Merge Strings Alternately
+
+            //MergeStringsAlternately x = new MergeStringsAlternately();
+            //var c = x.MergeAlternately("ab", "pqrs");
+
+
+
+            // 1844. Replace All Digits with Characters
+
+            //ReplaceAllDigitsWithCharacters x = new ReplaceAllDigitsWithCharacters();
+            //var c = x.ReplaceDigits("a1b2c3d4e");
 
             // 1475. Final Prices With a Special Discount in a Shop
 
