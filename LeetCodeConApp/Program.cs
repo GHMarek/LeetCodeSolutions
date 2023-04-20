@@ -18,9 +18,48 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
-            //
+            // 
 
             Console.WriteLine();
+
+            // 2553. Separate the Digits in an Array
+
+            //SeparateTheDigitsInAnArray x = new SeparateTheDigitsInAnArray();
+            //var c = x.SeparateDigits(new int[] { 13, 25, 83, 77 });
+
+            // 2176. Count Equal and Divisible Pairs in an Array
+
+            //CountEqualAndDivisiblePairsInAnArray x = new CountEqualAndDivisiblePairsInAnArray();
+            //var c = x.CountPairs(new int[] { 3, 1, 2, 2, 2, 1, 3 }, 2);
+
+
+            // 1309. Decrypt String from Alphabet to Integer Mapping
+
+            //DecryptStringFromAlphabetToIntegerMapping x = new DecryptStringFromAlphabetToIntegerMapping();
+            //var c = x.FreqAlphabets("26#11#418#5");
+
+
+            // 1464. Maximum Product of Two Elements in an Array
+
+            //MaximumProductOfTwoElementsInAnArray x = new MaximumProductOfTwoElementsInAnArray();
+            //var c = x.MaxProduct(new int[] { 3, 4, 5, 2 });
+
+            // 1967. Number of Strings That Appear as Substrings in Word
+
+            //NumberOfStringsThatAppearAsSubstringsInWord x = new NumberOfStringsThatAppearAsSubstringsInWord();
+            //var c = x.NumOfStrings(new string[] { "a", "abc", "bc", "d" }, "abc");
+
+            // 2586. Count the Number of Vowel Strings in Range
+
+            //CountTheNumberOfVowelStringsInRange x = new CountTheNumberOfVowelStringsInRange();
+            //x.VowelStrings(new string[] { "ta", "ie", "io", "d", "i" }, 2, 3);
+
+
+
+            // 2185. Counting Words With a Given Prefix
+
+            //CountingWordsWithAGivenPrefix x = new CountingWordsWithAGivenPrefix();
+            //var c = x.PrefixCount( new string[] { "pay","attention","practice","attend"}, "at");
 
 
             // 2485. Find the Pivot Integer

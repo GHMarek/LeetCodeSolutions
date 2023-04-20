@@ -53,16 +53,20 @@
     <Compile Include="ConvertBinaryNumberInALinkedListToInteger.cs" />
     <Compile Include="ConvertTheTemperature.cs" />
     <Compile Include="CountAsterisks.cs" />
+    <Compile Include="CountEqualAndDivisiblePairsInAnArray.cs" />
     <Compile Include="CountGoodTriplets.cs" />
+    <Compile Include="CountingWordsWithAGivenPrefix.cs" />
     <Compile Include="CountItemsMatchingARule.cs" />
     <Compile Include="CountNumberOfPairsWithAbsoluteDifferenceK.cs" />
     <Compile Include="CountOfMatchesInTournament.cs" />
     <Compile Include="CountTheDigitsThatDivideNumber.cs" />
     <Compile Include="CountTheNumberOfConsistentStrings.cs" />
+    <Compile Include="CountTheNumberOfVowelStringsInRange.cs" />
     <Compile Include="CreateTargetArrayintheGivenOrder.cs" />
     <Compile Include="DecodeTheMessage.cs" />
     <Compile Include="DecodeXORedArray.cs" />
     <Compile Include="DecompressRunLengthEncodedList.cs" />
+    <Compile Include="DecryptStringFromAlphabetToIntegerMapping.cs" />
     <Compile Include="DefangIp.cs" />
     <Compile Include="DeleteGreatestValueInEachRow.cs" />
     <Compile Include="DesignParkingSystem.cs" />
@@ -86,6 +90,7 @@
     <Compile Include="MaximumNestingDepthOfTheParentheses.cs" />
     <Compile Include="MaximumNumberOfPairsInArray.cs" />
     <Compile Include="MaximumProductDifference.cs" />
+    <Compile Include="MaximumProductOfTwoElementsInAnArray.cs" />
     <Compile Include="MaxIncreaseToKeepCitySkyline.cs" />
     <Compile Include="MergeSimilarItems.cs" />
     <Compile Include="MergeStringsAlternately.cs" />
@@ -96,6 +101,7 @@
     <Compile Include="MinimumTimeToCompleteTrips.cs" />
     <Compile Include="NumberOfArithmeticTriplets.cs" />
     <Compile Include="NumberOfStepsToReduceANumberToZero.cs" />
+    <Compile Include="NumberOfStringsThatAppearAsSubstringsInWord.cs" />
     <Compile Include="OrderedStream.cs" />
     <Compile Include="DifferenceBetweenElementSumAndDigitSum.cs" />
     <Compile Include="FinalValue.cs" />
@@ -118,6 +124,7 @@
     <Compile Include="RootEqualsSumOfChildren.cs" />
     <Compile Include="RotateImageSolution.cs" />
     <Compile Include="RunningSumOf1dArray.cs" />
+    <Compile Include="SeparateTheDigitsInAnArray.cs" />
     <Compile Include="ShuffleString.cs" />
     <Compile Include="ShuffleTheArray.cs" />
     <Compile Include="SmallestEvenMultiple.cs" />
