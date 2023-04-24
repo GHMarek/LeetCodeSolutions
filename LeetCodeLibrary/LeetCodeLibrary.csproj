@@ -46,6 +46,7 @@
     <Compile Include="BinaryTree.cs" />
     <Compile Include="BinaryTreeInOrderTraversal.cs" />
     <Compile Include="BuildArrayFromPermutation.cs" />
+    <Compile Include="CalculateDelayedArrivalTime.cs" />
     <Compile Include="CellsInARangeOnAnExcelSheet.cs" />
     <Compile Include="CheckDistancesBetweenSameLetters.cs" />
     <Compile Include="CheckIfTheSentenceIsPangram.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="FinalPricesWithASpecialDiscountInAShop.cs" />
     <Compile Include="FindCenterOfStarGraph.cs" />
     <Compile Include="FindCorrespondingNodeOfABinaryTreeInACloneOfThatTree.cs" />
+    <Compile Include="FindFirstPalindromicStringInTheArray.cs" />
     <Compile Include="FindThePivotInteger.cs" />
     <Compile Include="FlippingAnImage.cs" />
     <Compile Include="GoalParser.cs" />
@@ -100,6 +102,7 @@
     <Compile Include="MinimumSumofFourDigitNumberAfterSplittingDigits.cs" />
     <Compile Include="MinimumTimeToCompleteTrips.cs" />
     <Compile Include="NumberOfArithmeticTriplets.cs" />
+    <Compile Include="NumberOfCommonFactors.cs" />
     <Compile Include="NumberOfStepsToReduceANumberToZero.cs" />
     <Compile Include="NumberOfStringsThatAppearAsSubstringsInWord.cs" />
     <Compile Include="OrderedStream.cs" />
@@ -118,6 +121,7 @@
     <Compile Include="RemoveDuplicatesSolution.cs" />
     <Compile Include="RemoveOutermostParentheses.cs" />
     <Compile Include="ReplaceAllDigitsWithCharacters.cs" />
+    <Compile Include="ReversePrefixOfWord.cs" />
     <Compile Include="ReverseWordsInAString.cs" />
     <Compile Include="RichestCustomerWealth.cs" />
     <Compile Include="RingsAndRods.cs" />
@@ -135,6 +139,7 @@
     <Compile Include="SplitAStringInBalancedString.cs" />
     <Compile Include="SubrectangleQueries.cs" />
     <Compile Include="SubtractTheProductandSumOfDigitsOfAnInteger.cs" />
+    <Compile Include="SumMultiples.cs" />
     <Compile Include="SumOfAllOddLengthSubarrays.cs" />
     <Compile Include="SumOfAllSubsetXORTotals.cs" />
     <Compile Include="SumOfRootToLeafBinaryNumbers.cs" />
@@ -143,6 +148,7 @@
     <Compile Include="TruncateSentence.cs" />
     <Compile Include="TwoStringArraysAreEquivalent.cs" />
     <Compile Include="TwoSumSolution.cs" />
+    <Compile Include="UniqueMorseCodeWords.cs" />
     <Compile Include="XOROperationInAnArray.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

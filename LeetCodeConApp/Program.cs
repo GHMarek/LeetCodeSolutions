@@ -18,9 +18,39 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
-            // 
 
             Console.WriteLine();
+
+            // 2108. Find First Palindromic String in the Array
+
+            //FindFirstPalindromicStringInTheArray x = new FindFirstPalindromicStringInTheArray();
+            //var c = x.FirstPalindrome(new string[] { "abc", "car", "ada", "racecar", "cool" });
+
+            // 2000. Reverse Prefix of Word
+
+            //ReversePrefixOfWord x = new ReversePrefixOfWord();
+            //var c = x.ReversePrefix("abcdefd", 'd');
+
+            // 2427. Number of Common Factors
+
+            //NumberOfCommonFactors x = new NumberOfCommonFactors();
+            //var c = x.CommonFactors(12, 6);
+
+
+            // 804. Unique Morse Code Words
+
+            //UniqueMorseCodeWords x = new UniqueMorseCodeWords();
+            //var c = x.UniqueMorseRepresentations(new string[] { "gin", "zen", "gig", "msg" });
+
+            // 2651. Calculate Delayed Arrival Time
+
+            //CalculateDelayedArrivalTime x = new CalculateDelayedArrivalTime();
+            //var c = x.FindDelayedArrivalTime(24, 5);
+
+            // 2652. Sum Multiples
+
+            //SumMultiples x = new SumMultiples();
+            //var c = x.SumOfMultiples(7);
 
             // 2553. Separate the Digits in an Array
 
