@@ -18,8 +18,24 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
+            // 1827. Minimum Operations to Make the Array Increasing
+
+            MinimumOperationsToMakeTheArrayIncreasing x = new MinimumOperationsToMakeTheArrayIncreasing();
+            var c = x.MinOperations(new int[] { 1, 5, 2, 4, 1 });
 
             Console.WriteLine();
+
+            // 1252. Cells with Odd Values in a Matrix
+
+            //CellsWithOddValuesInAMatrix x = new CellsWithOddValuesInAMatrix();
+            //var c = x.OddCells(1, 1, new int[][] { new int[] { 0, 0 }, new int[] { 0, 0 } });
+
+            // 1732. Find the Highest Altitude
+
+            //FindTheHighestAltitude x = new FindTheHighestAltitude();
+            //var c = x.LargestAltitude(new int[] { -5, 1, 5, 0, -7 });
+
+
 
             // 2108. Find First Palindromic String in the Array
 
