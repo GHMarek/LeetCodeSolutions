@@ -52,6 +52,7 @@
     <Compile Include="CheckDistancesBetweenSameLetters.cs" />
     <Compile Include="CheckIfTheSentenceIsPangram.cs" />
     <Compile Include="ConcatenationOfArray.cs" />
+    <Compile Include="ConvertAnArrayIntoA2DArrayWithConditions.cs" />
     <Compile Include="ConvertBinaryNumberInALinkedListToInteger.cs" />
     <Compile Include="ConvertTheTemperature.cs" />
     <Compile Include="CountAsterisks.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="FindTheHighestAltitude.cs" />
     <Compile Include="FindThePivotInteger.cs" />
     <Compile Include="FlippingAnImage.cs" />
+    <Compile Include="GenerateAStringWithCharactersThatHaveOddCounts.cs" />
     <Compile Include="GoalParser.cs" />
     <Compile Include="GroupThePeopleGivenTheGroupSizeTheyBelongTo.cs" />
     <Compile Include="IncreasingDecreasingString.cs" />

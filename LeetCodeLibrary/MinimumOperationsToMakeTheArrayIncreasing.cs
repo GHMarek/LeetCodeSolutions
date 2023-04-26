@@ -21,7 +21,6 @@ namespace LeetCodeLibrary
                     nums[i] = nums[i - 1] + 1;
                 }
 
-
             }
 
             return res;

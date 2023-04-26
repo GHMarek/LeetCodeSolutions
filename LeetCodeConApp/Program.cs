@@ -18,12 +18,25 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
-            // 1827. Minimum Operations to Make the Array Increasing
-
-            MinimumOperationsToMakeTheArrayIncreasing x = new MinimumOperationsToMakeTheArrayIncreasing();
-            var c = x.MinOperations(new int[] { 1, 5, 2, 4, 1 });
+            // 
 
             Console.WriteLine();
+
+            // 2610. Convert an Array Into a 2D Array With Conditions
+
+            //ConvertAnArrayIntoA2DArrayWithConditions x = new ConvertAnArrayIntoA2DArrayWithConditions();
+            //var t = x.FindMatrix(new int[] { 1, 3, 4, 1, 2, 3, 1 });
+
+
+            // 1374. Generate a String With Characters That Have Odd Counts
+
+            //GenerateAStringWithCharactersThatHaveOddCounts x = new GenerateAStringWithCharactersThatHaveOddCounts();
+            //var t = x.GenerateTheString(4);
+
+            // 1827. Minimum Operations to Make the Array Increasing
+
+            //MinimumOperationsToMakeTheArrayIncreasing x = new MinimumOperationsToMakeTheArrayIncreasing();
+            //var c = x.MinOperations(new int[] { 1, 5, 2, 4, 1 });
 
             // 1252. Cells with Odd Values in a Matrix
 
