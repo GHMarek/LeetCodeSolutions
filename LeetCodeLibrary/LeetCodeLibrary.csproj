@@ -79,6 +79,7 @@
     <Compile Include="FindCorrespondingNodeOfABinaryTreeInACloneOfThatTree.cs" />
     <Compile Include="FindFirstPalindromicStringInTheArray.cs" />
     <Compile Include="FindTheHighestAltitude.cs" />
+    <Compile Include="FindTheOriginalArrayOfPrefixXor.cs" />
     <Compile Include="FindThePivotInteger.cs" />
     <Compile Include="FlippingAnImage.cs" />
     <Compile Include="GenerateAStringWithCharactersThatHaveOddCounts.cs" />
@@ -102,6 +103,7 @@
     <Compile Include="MergeStringsAlternately.cs" />
     <Compile Include="MinimumBitFlipsToConvertNumber.cs" />
     <Compile Include="MinimumNumberOfMovesToSeatEveryone.cs" />
+    <Compile Include="MinimumNumberOfOperationsToMoveAllBallsToEachBox.cs" />
     <Compile Include="MinimumOperationsToMakeTheArrayIncreasing.cs" />
     <Compile Include="MinimumPathSum.cs" />
     <Compile Include="MinimumSumofFourDigitNumberAfterSplittingDigits.cs" />

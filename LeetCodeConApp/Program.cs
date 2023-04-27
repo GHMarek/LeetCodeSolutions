@@ -17,10 +17,21 @@ namespace LeetCodeConApp
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            // 2161. Partition Array According to Given Pivot
 
-            // 
+
 
             Console.WriteLine();
+
+            // 1769. Minimum Number of Operations to Move All Balls to Each Box
+
+            //MinimumNumberOfOperationsToMoveAllBallsToEachBox x = new MinimumNumberOfOperationsToMoveAllBallsToEachBox();
+            //var c = x.MinOperations("001011");
+
+            // Find The Original Array of Prefix Xor
+
+            //FindTheOriginalArrayOfPrefixXor x = new FindTheOriginalArrayOfPrefixXor();
+            //var c = x.FindArray(new int[] { 5, 2, 0, 3, 1 });
 
             // 2610. Convert an Array Into a 2D Array With Conditions
 
