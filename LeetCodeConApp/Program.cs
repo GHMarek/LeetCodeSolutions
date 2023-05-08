@@ -17,11 +17,29 @@ namespace LeetCodeConApp
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            // 2161. Partition Array According to Given Pivot
 
+            // 2391. Minimum Amount of Time to Collect Garbage
+
+            MinimumAmountOfTimeToCollectGarbage x = new MinimumAmountOfTimeToCollectGarbage();
+            x.GarbageCollection(new string[] { "MMM", "PGM", "GP" }, new int[] { 3, 10 });
 
 
             Console.WriteLine();
+
+            // 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers
+
+            //PartitioningIntoMinimumNumberOfDeciBinaryNumbers x = new PartitioningIntoMinimumNumberOfDeciBinaryNumbers();
+            //var c = x.MinPartitions("27346209830709182346");
+
+            // 2656. Maximum Sum With Exactly K Elements 
+
+            //MaximumSumWithExactlyKElements x = new MaximumSumWithExactlyKElements();
+            //var c = x.MaximizeSum(new int[] { 4, 4, 9, 10, 10, 9, 3, 8, 4, 2, 5, 3, 8, 6, 1, 10, 4, 5, 3, 2, 3, 9, 5, 7, 10, 4, 9, 10, 1, 10, 4 }, 6);
+
+            // 2161. Partition Array According to Given Pivot
+
+            //PartitionArrayAccordingToGivenPivot x = new PartitionArrayAccordingToGivenPivot();
+            //var c = x.PivotArray(new int[] { 9, 12, 5, 10, 14, 3, 10 }, 10);
 
             // 1769. Minimum Number of Operations to Move All Balls to Each Box
 

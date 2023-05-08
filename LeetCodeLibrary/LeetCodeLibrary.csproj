@@ -98,9 +98,11 @@
     <Compile Include="MaximumNumberOfPairsInArray.cs" />
     <Compile Include="MaximumProductDifference.cs" />
     <Compile Include="MaximumProductOfTwoElementsInAnArray.cs" />
+    <Compile Include="MaximumSumWithExactlyKElements.cs" />
     <Compile Include="MaxIncreaseToKeepCitySkyline.cs" />
     <Compile Include="MergeSimilarItems.cs" />
     <Compile Include="MergeStringsAlternately.cs" />
+    <Compile Include="MinimumAmountOfTimeToCollectGarbage.cs" />
     <Compile Include="MinimumBitFlipsToConvertNumber.cs" />
     <Compile Include="MinimumNumberOfMovesToSeatEveryone.cs" />
     <Compile Include="MinimumNumberOfOperationsToMoveAllBallsToEachBox.cs" />
@@ -120,6 +122,8 @@
     <Compile Include="NumberOfGoodPairs.cs" />
     <Compile Include="NumbersAreSmallerThanTheCurrentNumber.cs" />
     <Compile Include="PalindromeNumberSolution.cs" />
+    <Compile Include="PartitionArrayAccordingToGivenPivot.cs" />
+    <Compile Include="PartitioningIntoMinimumNumberOfDeciBinaryNumbers.cs" />
     <Compile Include="PascalTriangle.cs" />
     <Compile Include="PowerOfFourSolution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
