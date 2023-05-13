@@ -74,6 +74,7 @@
     <Compile Include="DeleteGreatestValueInEachRow.cs" />
     <Compile Include="DesignParkingSystem.cs" />
     <Compile Include="DestinationCity.cs" />
+    <Compile Include="DIStringMatch.cs" />
     <Compile Include="FinalPricesWithASpecialDiscountInAShop.cs" />
     <Compile Include="FindCenterOfStarGraph.cs" />
     <Compile Include="FindCorrespondingNodeOfABinaryTreeInACloneOfThatTree.cs" />
@@ -110,6 +111,7 @@
     <Compile Include="MinimumPathSum.cs" />
     <Compile Include="MinimumSumofFourDigitNumberAfterSplittingDigits.cs" />
     <Compile Include="MinimumTimeToCompleteTrips.cs" />
+    <Compile Include="MinimumTimeVisitingAllPoints.cs" />
     <Compile Include="NumberOfArithmeticTriplets.cs" />
     <Compile Include="NumberOfCommonFactors.cs" />
     <Compile Include="NumberOfStepsToReduceANumberToZero.cs" />
@@ -160,6 +162,7 @@
     <Compile Include="TwoStringArraysAreEquivalent.cs" />
     <Compile Include="TwoSumSolution.cs" />
     <Compile Include="UniqueMorseCodeWords.cs" />
+    <Compile Include="WidestVerticalAreaBetweenTwoPointsContainingNoPoints.cs" />
     <Compile Include="XOROperationInAnArray.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

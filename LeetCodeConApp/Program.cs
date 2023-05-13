@@ -18,13 +18,34 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
-            // 2391. Minimum Amount of Time to Collect Garbage
 
-            MinimumAmountOfTimeToCollectGarbage x = new MinimumAmountOfTimeToCollectGarbage();
-            x.GarbageCollection(new string[] { "MMM", "PGM", "GP" }, new int[] { 3, 10 });
+            // 1266. Minimum Time Visiting All Points
+
+            //MinimumTimeVisitingAllPoints x = new MinimumTimeVisitingAllPoints();
+            //var c = x.MinTimeToVisitAllPoints(new int[][] { new int[] { 1, 1 }, new int[] { 3, 4 }, new int[] { -1, 0 } });
 
 
             Console.WriteLine();
+
+            // 1637. Widest Vertical Area Between Two Points Containing No Points
+
+
+
+
+            // 942. DI String Match
+
+            //DIStringMatch x = new DIStringMatch();
+            //var result = x.DiStringMatch("IDID");
+
+
+
+            // 2391. Minimum Amount of Time to Collect Garbage
+
+            //MinimumAmountOfTimeToCollectGarbage x = new MinimumAmountOfTimeToCollectGarbage();
+            //x.GarbageCollection(new string[] { "MMM", "PGM", "GP" }, new int[] { 3, 10 });
+
+
+
 
             // 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers
 
