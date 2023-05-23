@@ -62,6 +62,7 @@
     <Compile Include="CountItemsMatchingARule.cs" />
     <Compile Include="CountNumberOfPairsWithAbsoluteDifferenceK.cs" />
     <Compile Include="CountOfMatchesInTournament.cs" />
+    <Compile Include="CountPrefixesOfAGivenString.cs" />
     <Compile Include="CountTheDigitsThatDivideNumber.cs" />
     <Compile Include="CountTheNumberOfConsistentStrings.cs" />
     <Compile Include="CountTheNumberOfVowelStringsInRange.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="DecodeXORedArray.cs" />
     <Compile Include="DecompressRunLengthEncodedList.cs" />
     <Compile Include="DecryptStringFromAlphabetToIntegerMapping.cs" />
+    <Compile Include="DeepestLeavesSum.cs" />
     <Compile Include="DefangIp.cs" />
     <Compile Include="DeleteGreatestValueInEachRow.cs" />
     <Compile Include="DesignParkingSystem.cs" />
@@ -89,6 +91,7 @@
     <Compile Include="IncreasingDecreasingString.cs" />
     <Compile Include="JewelsAndStones.cs" />
     <Compile Include="KeepMultiplyingFoundValuesByTwo.cs" />
+    <Compile Include="KthDistinctStringInAnArray.cs" />
     <Compile Include="LargestLocalValuesInAMatrix.cs" />
     <Compile Include="LeftAndRightSumDifferences.cs" />
     <Compile Include="ListNode.cs" />
@@ -100,6 +103,7 @@
     <Compile Include="MaximumProductDifference.cs" />
     <Compile Include="MaximumProductOfTwoElementsInAnArray.cs" />
     <Compile Include="MaximumSumWithExactlyKElements.cs" />
+    <Compile Include="MaximumValueOfAStringInAnArray.cs" />
     <Compile Include="MaxIncreaseToKeepCitySkyline.cs" />
     <Compile Include="MergeSimilarItems.cs" />
     <Compile Include="MergeStringsAlternately.cs" />
@@ -114,6 +118,7 @@
     <Compile Include="MinimumTimeVisitingAllPoints.cs" />
     <Compile Include="NumberOfArithmeticTriplets.cs" />
     <Compile Include="NumberOfCommonFactors.cs" />
+    <Compile Include="NumberOfSeniorCitizens.cs" />
     <Compile Include="NumberOfStepsToReduceANumberToZero.cs" />
     <Compile Include="NumberOfStringsThatAppearAsSubstringsInWord.cs" />
     <Compile Include="OrderedStream.cs" />
@@ -150,6 +155,7 @@
     <Compile Include="SortThePeople.cs" />
     <Compile Include="SortTheStudentsByTheirKthScore.cs" />
     <Compile Include="SplitAStringInBalancedString.cs" />
+    <Compile Include="StrictlyPalindromicNumber.cs" />
     <Compile Include="SubrectangleQueries.cs" />
     <Compile Include="SubtractTheProductandSumOfDigitsOfAnInteger.cs" />
     <Compile Include="SumMultiples.cs" />

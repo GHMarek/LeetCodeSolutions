@@ -13,7 +13,6 @@ namespace LeetCodeLibrary
 
             for (int i = 0; i < words.Length; i++)
             {
-
                 if (words[i].SequenceEqual(words[i].Reverse()))
                 {
                     return words[i];

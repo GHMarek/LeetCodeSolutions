@@ -17,6 +17,37 @@ namespace LeetCodeConApp
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            // 2496. Maximum Value of a String in an Array
+
+            MaximumValueOfAStringInAnArray x = new MaximumValueOfAStringInAnArray();
+            var c = x.MaximumValue(new string[] { "1", "01", "001", "0001" });
+
+            Console.WriteLine();
+
+            // 2053. Kth Distinct String in an Array
+
+            //KthDistinctStringInAnArray x = new KthDistinctStringInAnArray();
+            //var c = x.KthDistinct(new string[] { "d", "b", "c", "b", "c", "a" }, 2);
+
+
+            // 2255. Count Prefixes of a Given String
+
+            //CountPrefixesOfAGivenString x = new CountPrefixesOfAGivenString();
+            //var c = x.CountPrefixes(new string[] { "a", "b", "c", "ab", "bc", "abc" }, "abc");
+
+            // 2678. Number of Senior Citizens
+
+            //NumberOfSeniorCitizens x = new NumberOfSeniorCitizens();
+            //var c = x.CountSeniors(new string[] { "7868190130M7522", "5303914400F9211", "9273338290F4010" });
+
+            // 1302. Deepest Leaves Sum
+
+
+
+            // 2396. Strictly Palindromic Number
+            //StrictlyPalindromicNumber x = new StrictlyPalindromicNumber();
+            //var c = x.isStrictlyPalindromic(4);
+
 
 
             // 1266. Minimum Time Visiting All Points
@@ -25,11 +56,10 @@ namespace LeetCodeConApp
             //var c = x.MinTimeToVisitAllPoints(new int[][] { new int[] { 1, 1 }, new int[] { 3, 4 }, new int[] { -1, 0 } });
 
 
-            Console.WriteLine();
-
             // 1637. Widest Vertical Area Between Two Points Containing No Points
 
-
+            //WidestVerticalAreaBetweenTwoPointsContainingNoPoints x = new WidestVerticalAreaBetweenTwoPointsContainingNoPoints();
+            //var c = x.MaxWidthOfVerticalArea(new int[][] { new int[] { 8, 7 }, new int[] { 9, 9 }, new int[] { 7, 4 }, new int[] { 9, 7 } });
 
 
             // 942. DI String Match
