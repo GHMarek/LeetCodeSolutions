@@ -73,6 +73,7 @@
     <Compile Include="DecryptStringFromAlphabetToIntegerMapping.cs" />
     <Compile Include="DeepestLeavesSum.cs" />
     <Compile Include="DefangIp.cs" />
+    <Compile Include="DeleteColumnsToMakeSorted.cs" />
     <Compile Include="DeleteGreatestValueInEachRow.cs" />
     <Compile Include="DesignParkingSystem.cs" />
     <Compile Include="DestinationCity.cs" />

@@ -17,12 +17,22 @@ namespace LeetCodeConApp
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            // 2496. Maximum Value of a String in an Array
 
-            MaximumValueOfAStringInAnArray x = new MaximumValueOfAStringInAnArray();
-            var c = x.MaximumValue(new string[] { "1", "01", "001", "0001" });
+            // 944. Delete Columns to Make Sorted
+            DeleteColumnsToMakeSorted x = new DeleteColumnsToMakeSorted();
+            var c = x.MinDeletionSize(new string[] { "a", "b" });
+
+
 
             Console.WriteLine();
+
+
+            // 2496. Maximum Value of a String in an Array
+
+            //MaximumValueOfAStringInAnArray x = new MaximumValueOfAStringInAnArray();
+            //var c = x.MaximumValue(new string[] { "1", "01", "001", "0001" });
+
+
 
             // 2053. Kth Distinct String in an Array
 
