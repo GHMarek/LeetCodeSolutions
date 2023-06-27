@@ -18,13 +18,24 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
-            // 944. Delete Columns to Make Sorted
-            DeleteColumnsToMakeSorted x = new DeleteColumnsToMakeSorted();
-            var c = x.MinDeletionSize(new string[] { "a", "b" });
-
-
 
             Console.WriteLine();
+
+            // 2744. Find Maximum Number of String Pairs
+
+            //FindMaximumNumberOfStringPairs x = new FindMaximumNumberOfStringPairs();
+            //var c = x.MaximumNumberOfStringPairs(new string[] { "wk", "xf", "ot", "je", "hd", "kw", "fx", "to", "ej" });
+
+            // 2697.Lexicographically Smallest Palindrome
+
+            //LexicographicallySmallestPalindrome x = new LexicographicallySmallestPalindrome();
+            //var c = x.MakeSmallestPalindrome("acba");
+
+
+
+            // 944. Delete Columns to Make Sorted
+            //DeleteColumnsToMakeSorted x = new DeleteColumnsToMakeSorted();
+            //var c = x.MinDeletionSize(new string[] { "a", "b" });
 
 
             // 2496. Maximum Value of a String in an Array

@@ -94,5 +94,29 @@ namespace LeetCodeTestsLib
             Assert.AreEqual(result, expected);
 
         }
+
+        [TestCase("egcfe", "efcfe")]
+        [TestCase("abcd", "abba")]
+        [TestCase("seven", "neven")]
+        public void MakeSmallestPalindrome(string s, string expected)
+        {
+            LexicographicallySmallestPalindrome x = new LexicographicallySmallestPalindrome();
+            var result = x.MakeSmallestPalindrome(s);
+            Assert.AreEqual(result, expected);
+
+        }
+
+        [TestCase(new string[] { "cd", "ac", "dc", "ca", "zz" }, 2)]
+        [TestCase(new string[] { "ab", "ba", "cc" }, 1)]
+        [TestCase(new string[] { "aa", "ab" }, 0)]
+        [TestCase(new string[] { "wk", "xf", "ot", "je", "hd", "kw", "fx", "to", "ej" }, 4)]
+        public void MaximumNumberOfStringPairs(string[] words, int expected)
+        {
+            FindMaximumNumberOfStringPairs x = new FindMaximumNumberOfStringPairs();
+            var result = x.MaximumNumberOfStringPairs(words);
+            Assert.AreEqual(result, expected);
+
+        }
+        
     }
 }

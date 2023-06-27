@@ -82,6 +82,7 @@
     <Compile Include="FindCenterOfStarGraph.cs" />
     <Compile Include="FindCorrespondingNodeOfABinaryTreeInACloneOfThatTree.cs" />
     <Compile Include="FindFirstPalindromicStringInTheArray.cs" />
+    <Compile Include="FindMaximumNumberOfStringPairs.cs" />
     <Compile Include="FindTheHighestAltitude.cs" />
     <Compile Include="FindTheOriginalArrayOfPrefixXor.cs" />
     <Compile Include="FindThePivotInteger.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="KthDistinctStringInAnArray.cs" />
     <Compile Include="LargestLocalValuesInAMatrix.cs" />
     <Compile Include="LeftAndRightSumDifferences.cs" />
+    <Compile Include="LexicographicallySmallestPalindrome.cs" />
     <Compile Include="ListNode.cs" />
     <Compile Include="MakeArrayZeroBySubtractingEqualAmounts.cs" />
     <Compile Include="MatrixDiagonalSum.cs" />
