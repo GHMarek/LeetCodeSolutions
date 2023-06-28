@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace LeetCodeTestsLib
 {
 
-    
+
     [TestFixture]
     public class LCTests
     {
@@ -42,7 +42,7 @@ namespace LeetCodeTestsLib
             Assert.AreEqual(result, expected);
         }
 
-        
+
 
         [Test]
         public void MaxWidthOfVerticalArea()
@@ -117,6 +117,17 @@ namespace LeetCodeTestsLib
             Assert.AreEqual(result, expected);
 
         }
-        
+
+        [TestCase(new int[] { 3, 1, 2, 1 }, 5, new int[] { 2, 1, 2, 1 })]
+        [TestCase(new int[] { 4, 1, 2, 2 }, 4, new int[] { 3, 1, 2, 0 })]
+        [TestCase(new int[] { 7, 5, 5, 8, 3 }, 8, new int[] {6,5,0,7,5})]
+        public void ProcessQueries(int[] queries, int m, int[] expected )
+        {
+            QueriesOnAPermutationWithKey x = new QueriesOnAPermutationWithKey();
+            var result = x.ProcessQueries(queries, m);
+            Assert.AreEqual(result, expected);
+
+        }
+
     }
 }

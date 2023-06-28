@@ -137,6 +137,7 @@
     <Compile Include="PascalTriangle.cs" />
     <Compile Include="PowerOfFourSolution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueriesOnAPermutationWithKey.cs" />
     <Compile Include="QueriesOnNumberOfPointsInsideACircle.cs" />
     <Compile Include="RangeSumOfBST.cs" />
     <Compile Include="RemoveDuplicatesSolution.cs" />

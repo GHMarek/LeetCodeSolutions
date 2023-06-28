@@ -18,6 +18,12 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
+            // 1409. Queries on a Permutation With Key
+
+            QueriesOnAPermutationWithKey x = new QueriesOnAPermutationWithKey();
+            var c = x.ProcessQueries(new int[] { 3, 1, 2, 1 }, 5);
+
+
 
             Console.WriteLine();
 
