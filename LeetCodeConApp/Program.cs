@@ -18,14 +18,19 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
-            // 1409. Queries on a Permutation With Key
+            // 2120. Execution of All Suffix Instructions Staying in a Grid
 
-            QueriesOnAPermutationWithKey x = new QueriesOnAPermutationWithKey();
-            var c = x.ProcessQueries(new int[] { 3, 1, 2, 1 }, 5);
-
-
+            ExecutionOfAllSuffixInstructionsStayingInAGrid x = new ExecutionOfAllSuffixInstructionsStayingInAGrid();
+            var c = x.ExecuteInstructions(1, new int[] { 0, 0 }, "LRUD");
 
             Console.WriteLine();
+
+
+            // 1409. Queries on a Permutation With Key
+
+            //QueriesOnAPermutationWithKey x = new QueriesOnAPermutationWithKey();
+            //var c = x.ProcessQueries(new int[] { 3, 1, 2, 1 }, 5);
+
 
             // 2744. Find Maximum Number of String Pairs
 

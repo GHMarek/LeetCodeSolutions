@@ -78,6 +78,7 @@
     <Compile Include="DesignParkingSystem.cs" />
     <Compile Include="DestinationCity.cs" />
     <Compile Include="DIStringMatch.cs" />
+    <Compile Include="ExecutionOfAllSuffixInstructionsStayingInAGrid.cs" />
     <Compile Include="FinalPricesWithASpecialDiscountInAShop.cs" />
     <Compile Include="FindCenterOfStarGraph.cs" />
     <Compile Include="FindCorrespondingNodeOfABinaryTreeInACloneOfThatTree.cs" />

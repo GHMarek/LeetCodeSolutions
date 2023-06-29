@@ -129,5 +129,16 @@ namespace LeetCodeTestsLib
 
         }
 
+        [TestCase(3, new int[] { 0, 1 }, "RRDDLU", new int[] { 1, 5, 4, 3, 1, 0 })]
+        [TestCase(2, new int[] { 1, 1 }, "LURD", new int[] { 4, 1, 0, 0 })]
+        [TestCase(1, new int[] { 0, 0 }, "LRUD", new int[] { 0, 0, 0, 0 })]
+        public void ExecuteInstructions(int n, int[] startPos, string s, int[] expected )
+        {
+            ExecutionOfAllSuffixInstructionsStayingInAGrid x = new ExecutionOfAllSuffixInstructionsStayingInAGrid();
+            var result = x.ExecuteInstructions(n, startPos, s);
+            Assert.AreEqual(result, expected);
+
+        }
+
     }
 }
