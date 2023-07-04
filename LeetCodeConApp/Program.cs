@@ -17,14 +17,23 @@ namespace LeetCodeConApp
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            // 2125. Number of Laser Beams in a Bank
 
-            // 2120. Execution of All Suffix Instructions Staying in a Grid
+            NumberOfLaserBeamsInABank x = new NumberOfLaserBeamsInABank();
+            var c = x.NumberOfBeams(new string[] { "011001", "000000", "010100", "001000"});
 
-            ExecutionOfAllSuffixInstructionsStayingInAGrid x = new ExecutionOfAllSuffixInstructionsStayingInAGrid();
-            var c = x.ExecuteInstructions(1, new int[] { 0, 0 }, "LRUD");
 
             Console.WriteLine();
 
+            // 1551.Minimum Operations to Make Array Equal
+
+            //MinimumOperationsToMakeArrayEqual x = new MinimumOperationsToMakeArrayEqual();
+            //var c = x.MinOperations(3);
+
+            // 2120. Execution of All Suffix Instructions Staying in a Grid
+
+            //ExecutionOfAllSuffixInstructionsStayingInAGrid x = new ExecutionOfAllSuffixInstructionsStayingInAGrid();
+            //var c = x.ExecuteInstructions(1, new int[] { 0, 0 }, "LRUD");
 
             // 1409. Queries on a Permutation With Key
 

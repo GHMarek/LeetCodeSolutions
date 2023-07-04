@@ -140,5 +140,15 @@ namespace LeetCodeTestsLib
 
         }
 
+        [TestCase(3, 2)]
+        [TestCase(6, 9)]
+        public void MinOperations(int n, int expected)
+        {
+            MinimumOperationsToMakeArrayEqual x = new MinimumOperationsToMakeArrayEqual();
+            var result = x.MinOperations(n);
+            Assert.AreEqual(result, expected);
+
+        }
+
     }
 }

@@ -115,6 +115,7 @@
     <Compile Include="MinimumBitFlipsToConvertNumber.cs" />
     <Compile Include="MinimumNumberOfMovesToSeatEveryone.cs" />
     <Compile Include="MinimumNumberOfOperationsToMoveAllBallsToEachBox.cs" />
+    <Compile Include="MinimumOperationsToMakeArrayEqual.cs" />
     <Compile Include="MinimumOperationsToMakeTheArrayIncreasing.cs" />
     <Compile Include="MinimumPathSum.cs" />
     <Compile Include="MinimumSumofFourDigitNumberAfterSplittingDigits.cs" />
@@ -122,6 +123,7 @@
     <Compile Include="MinimumTimeVisitingAllPoints.cs" />
     <Compile Include="NumberOfArithmeticTriplets.cs" />
     <Compile Include="NumberOfCommonFactors.cs" />
+    <Compile Include="NumberOfLaserBeamsInABank.cs" />
     <Compile Include="NumberOfSeniorCitizens.cs" />
     <Compile Include="NumberOfStepsToReduceANumberToZero.cs" />
     <Compile Include="NumberOfStringsThatAppearAsSubstringsInWord.cs" />
