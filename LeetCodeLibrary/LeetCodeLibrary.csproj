@@ -80,6 +80,7 @@
     <Compile Include="DIStringMatch.cs" />
     <Compile Include="ExecutionOfAllSuffixInstructionsStayingInAGrid.cs" />
     <Compile Include="FinalPricesWithASpecialDiscountInAShop.cs" />
+    <Compile Include="FindAndReplacePattern.cs" />
     <Compile Include="FindCenterOfStarGraph.cs" />
     <Compile Include="FindCorrespondingNodeOfABinaryTreeInACloneOfThatTree.cs" />
     <Compile Include="FindFirstPalindromicStringInTheArray.cs" />

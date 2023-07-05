@@ -17,13 +17,17 @@ namespace LeetCodeConApp
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            // 2125. Number of Laser Beams in a Bank
 
-            NumberOfLaserBeamsInABank x = new NumberOfLaserBeamsInABank();
-            var c = x.NumberOfBeams(new string[] { "011001", "000000", "010100", "001000"});
-
+            // 890. Find and Replace Pattern
+            FindAndReplacePattern x = new FindAndReplacePattern();
+            var c = x.FindAndReplacePatterrn(new string[] { "badc", "abab", "dddd", "dede", "yyxx" }, "baba");
 
             Console.WriteLine();
+
+            // 2125. Number of Laser Beams in a Bank
+
+            //NumberOfLaserBeamsInABank x = new NumberOfLaserBeamsInABank();
+            //var c = x.NumberOfBeams(new string[] { "011001", "000000", "010100", "001000"});
 
             // 1551.Minimum Operations to Make Array Equal
 
