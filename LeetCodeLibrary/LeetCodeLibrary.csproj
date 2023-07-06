@@ -88,6 +88,7 @@
     <Compile Include="FindTheHighestAltitude.cs" />
     <Compile Include="FindTheOriginalArrayOfPrefixXor.cs" />
     <Compile Include="FindThePivotInteger.cs" />
+    <Compile Include="FindThePrefixCommonArrayOfTwoArrays.cs" />
     <Compile Include="FlippingAnImage.cs" />
     <Compile Include="GenerateAStringWithCharactersThatHaveOddCounts.cs" />
     <Compile Include="GoalParser.cs" />
@@ -144,6 +145,7 @@
     <Compile Include="QueriesOnAPermutationWithKey.cs" />
     <Compile Include="QueriesOnNumberOfPointsInsideACircle.cs" />
     <Compile Include="RangeSumOfBST.cs" />
+    <Compile Include="RearrangeArrayElementsBySign.cs" />
     <Compile Include="RemoveDuplicatesSolution.cs" />
     <Compile Include="RemoveOutermostParentheses.cs" />
     <Compile Include="ReplaceAllDigitsWithCharacters.cs" />

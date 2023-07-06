@@ -150,5 +150,15 @@ namespace LeetCodeTestsLib
 
         }
 
+        [TestCase(new int[] { 3, 1, -2, -5, 2, -4 }, new int[] { 3, -2, 1, -5, 2, -4 })]
+        [TestCase(new int[] { -1, 1 }, new int[] { 1, -1 })]
+        public void RearrangeArray(int[] nums, int[] expected)
+        {
+            RearrangeArrayElementsBySign x = new RearrangeArrayElementsBySign();
+            var result = x.RearrangeArray(nums);
+            Assert.AreEqual(result, expected);
+
+        }
+
     }
 }

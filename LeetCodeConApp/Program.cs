@@ -17,12 +17,23 @@ namespace LeetCodeConApp
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            // 2657. Find the Prefix Common Array of Two Arrays
 
-            // 890. Find and Replace Pattern
-            FindAndReplacePattern x = new FindAndReplacePattern();
-            var c = x.FindAndReplacePatterrn(new string[] { "badc", "abab", "dddd", "dede", "yyxx" }, "baba");
+            FindThePrefixCommonArrayOfTwoArrays x = new FindThePrefixCommonArrayOfTwoArrays();
+            var c = x.FindThePrefixCommonArray(new int[] { 1, 3, 2, 4 }, new int[] { 3, 1, 2, 4 });
+
+
 
             Console.WriteLine();
+
+            // 2149. Rearrange Array Elements by Sign
+            //RearrangeArrayElementsBySign x = new RearrangeArrayElementsBySign();
+            //var c = x.RearrangeArray(new int[] { 3, 1, -2, -5, 2, -4 });
+
+
+            // 890. Find and Replace Pattern
+            //FindAndReplacePattern x = new FindAndReplacePattern();
+            //var c = x.FindAndReplacePatterrn(new string[] { "badc", "abab", "dddd", "dede", "yyxx" }, "baba");
 
             // 2125. Number of Laser Beams in a Bank
 
