@@ -17,14 +17,18 @@ namespace LeetCodeConApp
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            // 2657. Find the Prefix Common Array of Two Arrays
 
-            FindThePrefixCommonArrayOfTwoArrays x = new FindThePrefixCommonArrayOfTwoArrays();
-            var c = x.FindThePrefixCommonArray(new int[] { 1, 3, 2, 4 }, new int[] { 3, 1, 2, 4 });
-
+            // 811. Subdomain Visit Count
+            SubdomainVisitCount x = new SubdomainVisitCount();
+            var c = x.SubdomainVisits(new string[] { "900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org" });
 
 
             Console.WriteLine();
+
+            // 2657. Find the Prefix Common Array of Two Arrays
+
+            //FindThePrefixCommonArrayOfTwoArrays x = new FindThePrefixCommonArrayOfTwoArrays();
+            //var c = x.FindThePrefixCommonArray(new int[] { 1, 3, 2, 4 }, new int[] { 3, 1, 2, 4 });
 
             // 2149. Rearrange Array Elements by Sign
             //RearrangeArrayElementsBySign x = new RearrangeArrayElementsBySign();

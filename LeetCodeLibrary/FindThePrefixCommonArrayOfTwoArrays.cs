@@ -14,7 +14,7 @@ namespace LeetCodeLibrary
 
             for (int i = 0; i < A.Length; i++)
             {
-                res[i] = A.Take(i).Intersect(B.Take(i)).Count();
+                res[i] = A.Take(i + 1).Intersect(B.Take(i + 1)).Count();
             }
 
             return res;
