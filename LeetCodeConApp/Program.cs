@@ -18,12 +18,32 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
-            // 811. Subdomain Visit Count
-            SubdomainVisitCount x = new SubdomainVisitCount();
-            var c = x.SubdomainVisits(new string[] { "900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org" });
+            // 1418. Display Table of Food Orders in a Restaurant
+            IList<IList<string>> myList = new List<IList<string>>();
+            myList.Add(new List<string>() { "James", "12", "Fried Chicken" });
+            myList.Add(new List<string>() { "Ratesh", "12", "Fried Chicken" });
+            myList.Add(new List<string>() { "Amadeus", "12", "Fried Chicken" });
+            myList.Add(new List<string>() { "Adam", "1", "Canadian Waffles" });
+            myList.Add(new List<string>() { "Brianna", "1", "Canadian Waffles" });
 
+            //var c = new List<List<string>> { new List<string>() { "David", "3", "Ceviche" }
+            //, new List<string>() { "Corina", "10", "Beef Burrito" }
+            //, new List<string>() { "David", "3", "Fried Chicken" }
+            //, new List<string>() { "Carla","5","Water" }
+            //, new List<string>() { "Carla", "5", "Ceviche" }
+            //, new List<string>() { "Rous", "3", "Ceviche" }
+            //};
 
+            DisplayTableOfFoodOrdersInARestaurant x = new DisplayTableOfFoodOrdersInARestaurant();
+            var z = x.DisplayTable(myList);
+
+            // new List<string>() { "Corina", "10", "Beef Burrito" }, new List<string>() { "David", "3", "Fried Chicken" }
             Console.WriteLine();
+
+
+            // 811. Subdomain Visit Count
+            //SubdomainVisitCount x = new SubdomainVisitCount();
+            //var c = x.SubdomainVisits(new string[] { "900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org" });
 
             // 2657. Find the Prefix Common Array of Two Arrays
 

@@ -12,10 +12,6 @@ namespace LeetCodeLibrary
         public int ArithmeticTriplets(int[] nums, int diff)
         {
 
-            int i;
-            int j;
-            int k;
-
             
             int res = 0;
 

@@ -11,9 +11,7 @@ namespace LeetCodeLibrary
         public int DeepestLeavesSumm(TreeNode root)
         {
 
-            int deepestLevel = 0;
             int sumLeaves = root.val;
-            int level = 0;
 
             //InOrderTrav(root);
 

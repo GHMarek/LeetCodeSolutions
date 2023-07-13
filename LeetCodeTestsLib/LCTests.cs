@@ -56,7 +56,7 @@ namespace LeetCodeTestsLib
 
         [TestCase(9, false)]
         [TestCase(4, false)]
-        public void isStrictlyPalindromic(int testCase, bool expected)
+        public void IsStrictlyPalindromic(int testCase, bool expected)
         {
             StrictlyPalindromicNumber x = new StrictlyPalindromicNumber();
             var result = x.isStrictlyPalindromic(testCase);
@@ -120,8 +120,8 @@ namespace LeetCodeTestsLib
 
         [TestCase(new int[] { 3, 1, 2, 1 }, 5, new int[] { 2, 1, 2, 1 })]
         [TestCase(new int[] { 4, 1, 2, 2 }, 4, new int[] { 3, 1, 2, 0 })]
-        [TestCase(new int[] { 7, 5, 5, 8, 3 }, 8, new int[] {6,5,0,7,5})]
-        public void ProcessQueries(int[] queries, int m, int[] expected )
+        [TestCase(new int[] { 7, 5, 5, 8, 3 }, 8, new int[] { 6, 5, 0, 7, 5 })]
+        public void ProcessQueries(int[] queries, int m, int[] expected)
         {
             QueriesOnAPermutationWithKey x = new QueriesOnAPermutationWithKey();
             var result = x.ProcessQueries(queries, m);
@@ -132,7 +132,7 @@ namespace LeetCodeTestsLib
         [TestCase(3, new int[] { 0, 1 }, "RRDDLU", new int[] { 1, 5, 4, 3, 1, 0 })]
         [TestCase(2, new int[] { 1, 1 }, "LURD", new int[] { 4, 1, 0, 0 })]
         [TestCase(1, new int[] { 0, 0 }, "LRUD", new int[] { 0, 0, 0, 0 })]
-        public void ExecuteInstructions(int n, int[] startPos, string s, int[] expected )
+        public void ExecuteInstructions(int n, int[] startPos, string s, int[] expected)
         {
             ExecutionOfAllSuffixInstructionsStayingInAGrid x = new ExecutionOfAllSuffixInstructionsStayingInAGrid();
             var result = x.ExecuteInstructions(n, startPos, s);
@@ -159,6 +159,8 @@ namespace LeetCodeTestsLib
             Assert.AreEqual(result, expected);
 
         }
+
+
 
     }
 }
