@@ -114,6 +114,8 @@
     <Compile Include="MaxIncreaseToKeepCitySkyline.cs" />
     <Compile Include="MergeSimilarItems.cs" />
     <Compile Include="MergeStringsAlternately.cs" />
+    <Compile Include="MergeTwoSortedLists.cs" />
+    <Compile Include="MiddleOfTheLinkedList.cs" />
     <Compile Include="MinimumAmountOfTimeToCollectGarbage.cs" />
     <Compile Include="MinimumBitFlipsToConvertNumber.cs" />
     <Compile Include="MinimumNumberOfMovesToSeatEveryone.cs" />
@@ -150,6 +152,7 @@
     <Compile Include="RemoveDuplicatesSolution.cs" />
     <Compile Include="RemoveOutermostParentheses.cs" />
     <Compile Include="ReplaceAllDigitsWithCharacters.cs" />
+    <Compile Include="ReverseLinkedList.cs" />
     <Compile Include="ReversePrefixOfWord.cs" />
     <Compile Include="ReverseWordsInAString.cs" />
     <Compile Include="RichestCustomerWealth.cs" />

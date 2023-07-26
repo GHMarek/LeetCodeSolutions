@@ -29,7 +29,7 @@ namespace LeetCodeTestsLib
             MinimumAmountOfTimeToCollectGarbage x = new MinimumAmountOfTimeToCollectGarbage();
             var result = x.GarbageCollection(garbage, travel);
 
-            Assert.AreEqual(result, expected);
+            Assert.AreEqual(expected, result);
         }
 
         [TestCase("IDID", new int[] { 0, 4, 1, 3, 2 })]
@@ -39,7 +39,7 @@ namespace LeetCodeTestsLib
         {
             DIStringMatch x = new DIStringMatch();
             var result = x.DiStringMatch(s);
-            Assert.AreEqual(result, expected);
+            Assert.AreEqual(expected, result);
         }
 
 
@@ -69,7 +69,7 @@ namespace LeetCodeTestsLib
         {
             NumberOfSeniorCitizens x = new NumberOfSeniorCitizens();
             var result = x.CountSeniors(details);
-            Assert.AreEqual(result, expected);
+            Assert.AreEqual(expected, result);
         }
 
         [TestCase(new string[] { "d", "b", "c", "b", "c", "a" }, 2, "a")]
@@ -80,7 +80,7 @@ namespace LeetCodeTestsLib
             KthDistinctStringInAnArray x = new KthDistinctStringInAnArray();
             var result = x.KthDistinct(arr, k);
 
-            Assert.AreEqual(result, expected);
+            Assert.AreEqual(expected, result);
 
         }
 
@@ -91,7 +91,7 @@ namespace LeetCodeTestsLib
         {
             MaximumValueOfAStringInAnArray x = new MaximumValueOfAStringInAnArray();
             var result = x.MaximumValue(strs);
-            Assert.AreEqual(result, expected);
+            Assert.AreEqual(expected, result);
 
         }
 
@@ -102,7 +102,7 @@ namespace LeetCodeTestsLib
         {
             LexicographicallySmallestPalindrome x = new LexicographicallySmallestPalindrome();
             var result = x.MakeSmallestPalindrome(s);
-            Assert.AreEqual(result, expected);
+            Assert.AreEqual(expected, result);
 
         }
 
@@ -114,7 +114,7 @@ namespace LeetCodeTestsLib
         {
             FindMaximumNumberOfStringPairs x = new FindMaximumNumberOfStringPairs();
             var result = x.MaximumNumberOfStringPairs(words);
-            Assert.AreEqual(result, expected);
+            Assert.AreEqual(expected, result);
 
         }
 
@@ -125,7 +125,7 @@ namespace LeetCodeTestsLib
         {
             QueriesOnAPermutationWithKey x = new QueriesOnAPermutationWithKey();
             var result = x.ProcessQueries(queries, m);
-            Assert.AreEqual(result, expected);
+            Assert.AreEqual(expected, result);
 
         }
 
@@ -136,7 +136,7 @@ namespace LeetCodeTestsLib
         {
             ExecutionOfAllSuffixInstructionsStayingInAGrid x = new ExecutionOfAllSuffixInstructionsStayingInAGrid();
             var result = x.ExecuteInstructions(n, startPos, s);
-            Assert.AreEqual(result, expected);
+            Assert.AreEqual(expected, result);
 
         }
 
@@ -146,7 +146,7 @@ namespace LeetCodeTestsLib
         {
             MinimumOperationsToMakeArrayEqual x = new MinimumOperationsToMakeArrayEqual();
             var result = x.MinOperations(n);
-            Assert.AreEqual(result, expected);
+            Assert.AreEqual(expected, result);
 
         }
 
@@ -156,10 +156,58 @@ namespace LeetCodeTestsLib
         {
             RearrangeArrayElementsBySign x = new RearrangeArrayElementsBySign();
             var result = x.RearrangeArray(nums);
-            Assert.AreEqual(result, expected);
+            Assert.AreEqual(expected, result);
 
         }
 
+        [Test]
+        public void RecursiveReverse()
+        {
+            ListNode nodeA = new ListNode();
+            nodeA.val = 1;
+            ListNode nodeB = new ListNode();
+            nodeB.val = 2;
+            ListNode nodeC = new ListNode();
+            nodeC.val = 3;
+            ListNode nodeD = new ListNode();
+            nodeD.val = 4;
+            ListNode nodeE = new ListNode();
+            nodeE.val = 5;
+
+            nodeA.next = nodeB;
+            nodeB.next = nodeC;
+            nodeC.next = nodeD;
+            nodeD.next = nodeE;
+
+            ReverseLinkedList x = new ReverseLinkedList();
+            //var c = x.ReverseList(nodeA);
+            var result = x.RecursiveReverse(nodeA);
+
+            ListNode nodeAEx = new ListNode();
+            nodeAEx.val = 5;
+            ListNode nodeBEx = new ListNode();
+            nodeBEx.val = 4;
+            ListNode nodeCEx = new ListNode();
+            nodeCEx.val = 3;
+            ListNode nodeDEx = new ListNode();
+            nodeDEx.val = 2;
+            ListNode nodeEEx = new ListNode();
+            nodeEEx.val = 1;
+
+            nodeAEx.next = nodeBEx;
+            nodeBEx.next = nodeCEx;
+            nodeCEx.next = nodeDEx;
+            nodeDEx.next = nodeEEx;
+
+            var expected = nodeAEx;
+
+            Assert.AreEqual(nodeEEx.val, result.next.next.next.next.val);
+            Assert.AreEqual(nodeDEx.val, result.next.next.next.val);
+            Assert.AreEqual(nodeCEx.val, result.next.next.val);
+            Assert.AreEqual(nodeBEx.val, result.next.val);
+            Assert.AreEqual(nodeAEx.val, result.val);
+
+        }
 
 
     }

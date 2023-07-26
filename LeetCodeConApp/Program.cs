@@ -18,13 +18,92 @@ namespace LeetCodeConApp
         static void Main(string[] args)
         {
 
+            // 21. Merge Two Sorted Lists
+
+            ListNode ListOneNodeA = new ListNode();
+            ListOneNodeA.val = 1;
+            ListNode ListOneNodeB = new ListNode();
+            ListOneNodeB.val = 2;
+            ListNode ListOneNodeC = new ListNode();
+            ListOneNodeC.val = 4;
+
+            ListOneNodeA.next = ListOneNodeB;
+            ListOneNodeB.next = ListOneNodeC;
+
+            ListNode ListTwoNodeA = new ListNode();
+            ListTwoNodeA.val = 1;
+            ListNode ListTwoNodeB = new ListNode();
+            ListTwoNodeB.val = 3;
+            ListNode ListTwoNodeC = new ListNode();
+            ListTwoNodeC.val = 4;
+
+            ListTwoNodeA.next = ListTwoNodeB;
+            ListTwoNodeB.next = ListTwoNodeC;
+
+            MergeTwoSortedLists x = new MergeTwoSortedLists();
+            //var c = x.ReverseList(nodeA);
+            var r = x.MergeTwoLists(ListOneNodeA, ListTwoNodeA);
+
+            Console.WriteLine();
+
+            // 206. Reverse Linked List
+
+
+            //ListNode nodeA = new ListNode();
+            //nodeA.val = 1;
+            //ListNode nodeB = new ListNode();
+            //nodeB.val = 2;
+            //ListNode nodeC = new ListNode();
+            //nodeC.val = 3;
+            //ListNode nodeD = new ListNode();
+            //nodeD.val = 4;
+            //ListNode nodeE = new ListNode();
+            //nodeE.val = 5;
+
+            //nodeA.next = nodeB;
+            //nodeB.next = nodeC;
+            //nodeC.next = nodeD;
+            //nodeD.next = nodeE;
+
+            //ReverseLinkedList x = new ReverseLinkedList();
+            ////var c = x.ReverseList(nodeA);
+            //var r = x.TailRecursiveReverse(nodeA);
+
+
+            //Console.WriteLine();
+            // 876. Middle of the Linked List
+
+            //ListNode nodeA = new ListNode();
+            //nodeA.val = 1;
+            //ListNode nodeB = new ListNode();
+            //nodeB.val = 2;
+            //ListNode nodeC = new ListNode();
+            //nodeC.val = 3;
+            //ListNode nodeD = new ListNode();
+            //nodeD.val = 4;
+            //ListNode nodeE = new ListNode();
+            //nodeE.val = 5;
+            //ListNode nodeF = new ListNode();
+            //nodeE.val = 6;
+
+            //nodeA.next = nodeB;
+            //nodeB.next = nodeC;
+            //nodeC.next = nodeD;
+            //nodeD.next = nodeE;
+            //nodeE.next = nodeF;
+
+            //var mid = new MiddleOfTheLinkedList();
+            //var x = mid.MiddleNode(nodeA);
+
+
+
             // 1418. Display Table of Food Orders in a Restaurant
-            IList<IList<string>> myList = new List<IList<string>>();
-            myList.Add(new List<string>() { "James", "12", "Fried Chicken" });
-            myList.Add(new List<string>() { "Ratesh", "12", "Fried Chicken" });
-            myList.Add(new List<string>() { "Amadeus", "12", "Fried Chicken" });
-            myList.Add(new List<string>() { "Adam", "1", "Canadian Waffles" });
-            myList.Add(new List<string>() { "Brianna", "1", "Canadian Waffles" });
+            //IList<IList<string>> myList = new List<IList<string>>();
+            //myList.Add(new List<string>() { "James", "12", "Fried Chicken" });
+            //myList.Add(new List<string>() { "Ratesh", "12", "Fried Chicken" });
+            //myList.Add(new List<string>() { "Amadeus", "12", "Fried Chicken" });
+            //myList.Add(new List<string>() { "Adam", "1", "Canadian Waffles" });
+            //myList.Add(new List<string>() { "Brianna", "1", "Canadian Waffles" });
 
             //var c = new List<List<string>> { new List<string>() { "David", "3", "Ceviche" }
             //, new List<string>() { "Corina", "10", "Beef Burrito" }
@@ -34,11 +113,11 @@ namespace LeetCodeConApp
             //, new List<string>() { "Rous", "3", "Ceviche" }
             //};
 
-            DisplayTableOfFoodOrdersInARestaurant x = new DisplayTableOfFoodOrdersInARestaurant();
-            var z = x.DisplayTable(myList);
+            //DisplayTableOfFoodOrdersInARestaurant x = new DisplayTableOfFoodOrdersInARestaurant();
+            //var z = x.DisplayTable(myList);
 
             // new List<string>() { "Corina", "10", "Beef Burrito" }, new List<string>() { "David", "3", "Fried Chicken" }
-            Console.WriteLine();
+
 
 
             // 811. Subdomain Visit Count
@@ -723,7 +802,7 @@ namespace LeetCodeConApp
             // 912. Sort an Array
 
             //SortAnArray x = new SortAnArray();
-            //int[] c = new int[] { 5, 2, 3, 1 };
+            //int[] c = new int[] { 5, 5, 2, 3, 1 };
             //x.SortArray(c);
 
             //Console.WriteLine();
